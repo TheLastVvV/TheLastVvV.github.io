@@ -14,7 +14,7 @@ locale                   : "en-US"
 title                    : "Mani Kumar"
 description              : "A versatile coder, pragmatic thinker and a humorous writer."
 url                      : "https://thelastvvv.github.io/" # the base hostname & protocol for your site
-baseurl                  : "https://thelastvvv.github.io/site" # the subpath of your site, e.g. 
+baseurl                  : "/"# the subpath of your site, e.g. " # the subpath of your site, e.g. 
 repository               : # site repo
 teaser                   : # path of fallback teaser image, e.g. "teaser_default.png" in /assests/images folder
 logo                     : "mani_blog_logo.png" # path of site logo image
