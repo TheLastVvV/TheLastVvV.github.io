@@ -1,25 +1,21 @@
 ---
-#layout: compress # enable only if needed
+layout: compress
 ---
-
 <!DOCTYPE html>
 <html>
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
-  <!-- page container -->
-  <div class="page-container">
-    <!-- page header -->
-    {% include header.html %}
-    <!-- page content -->
-    <main class="page-content" role="main">
+  <body>
+
+    <main>
+
       {{ content }}
+
     </main>
-    <!-- page footer -->
+
     {% include footer.html %}
-  </div>
-  {% include scripts.html %}
-</body>
+
+  </body>
 
 </html>
