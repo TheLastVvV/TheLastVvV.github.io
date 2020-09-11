@@ -17,7 +17,7 @@ show_title: true           # always keep the site title visible
 # Styling
 
 dark_header: true           # always keep the header dark
-minimal: false               # use simpler style
+minimal: true             # use simpler style
 
 # Menu
 
