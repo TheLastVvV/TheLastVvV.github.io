@@ -1,6 +1,6 @@
 title: "TheLastVvV"
 author: "@TheLastVvV"
-description: "Security With <b style=\"color: #f45;\">&lt;3</b> by <b><a href=\"https://github.com/niklasbuschmann\">@TheLastVvV</a></b>"
+description: "Security With <b style=\"color: #f45;\">&lt;3</b> by <b><a href=\"https://twitter.com/TheLastVvV\">@TheLastVvV</a></b>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -17,7 +17,7 @@ show_title: true           # always keep the site title visible
 # Styling
 
 dark_header: true           # always keep the header dark
-minimal: true             # use simpler style
+minimal: flase            # use simpler style
 
 # Menu
 
