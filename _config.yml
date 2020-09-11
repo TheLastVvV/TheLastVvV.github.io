@@ -5,26 +5,27 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-theme                    : # "lone-wolf-theme"
-remote_theme             : "manid2/lone-wolf-theme"
-bootswatch_theme         : "cerulean" # cerulean, spacelab, united
+theme                    : "lone-wolf-theme"
+remote_theme             : #"manid2/lone-wolf-theme"
+bootswatch_theme         : "united" # cerulean, spacelab, united
 
 # site Settings
-locale                   : "en-US"
-title                    : "Mani Kumar"
-description              : "A versatile coder, pragmatic thinker and a humorous writer."
-url                      : "https://thelastvvv.github.io/" # the base hostname & protocol for your site
-baseurl                  : "/"# the subpath of your site, e.g. " # the subpath of your site, e.g. 
-repository               : # site repo
-teaser                   : # path of fallback teaser image, e.g. "teaser_default.png" in /assests/images folder
-logo                     : "mani_blog_logo.png" # path of site logo image
+lang                     : "en_US"
+title                    : "TheLastVvV"
+description              : "Security with TheLastVvV"
+url                      : # the base hostname & protocol for your site e.g. "https://thelastvvv.github.io/"
+baseurl                  : # the subpath of your site, e.g. "/"
+repository               : # GitHub username/repo-name e.g. "#"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/teaser_default.png"
+logo                     : "lwt-logo-wolf-v1.svg" # path of logo image to display in the masthead, e.g. "/assets/images/site_logo.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 words_per_minute         : 200
 
 # comments settings
 comments:
-  provider               : "disqus" # false (default), "disqus", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "https-manid2-github-io-1" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 # feed
 atom_feed:
@@ -41,17 +42,17 @@ google:
 
 # site verifications, jekyll-seo-tag plugin
 webmaster_verifications:
-  google:  "#"
-  bing:    "#"
+  google:  # 1234
+  bing:    # 1234
   alexa:   # 1234
-  yandex:  "#"
+  yandex:  # 1234
   baidu:   # 1234
 
 # Analytics
 analytics:
-  provider               : "google-gtag" # false (default), "google-gtag", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-130093536-1"
+    tracking_id          :
     anonymize_ip         : # true, false (default)
 
 # Reading Files
@@ -115,9 +116,9 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 10
-paginate_path: "/blog/page/:num/"
-timezone: "" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
@@ -128,7 +129,6 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-include-cache
-  - jekyll-remote-theme
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -139,7 +139,6 @@ whitelist:
   - jekyll-seo-tag
   - jemoji
   - jekyll-include-cache
-  - jekyll-remote-theme
 
 # HTML Compression
 # - http://jch.penibelst.de/
@@ -160,12 +159,5 @@ defaults:
       show_author: true
       show_toc: true
       share: true
-      show_comments: true
-      show_ads: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-      show_ads: true
+      show_comments: false
+      show_ads: false

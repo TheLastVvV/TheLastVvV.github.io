@@ -1,8 +1,0 @@
-# list of apps
-links:
-  - title: "Lone Wolf Theme"
-    headline: "A simple bootstrap based jekyll theme."
-    description: "It uses Bootstrap 4 with Bootswatch wrappers and \
-    animate.css frameworks."
-    url: "https://manid2.github.io/lone-wolf-theme/"
-    icon: "assets/images/lwt-logo-v1.svg"

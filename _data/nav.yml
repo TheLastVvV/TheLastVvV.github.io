@@ -1,33 +1,39 @@
 # header links
 header:
-  - title: "All posts"
-    url: "/all-posts/"
-    description: "All posts in blog grouped by year."
+  - title: "Features"
+    url: "/features/"
+    description: "List of features in the theme"
+  - title: "Source"
+    url: "/source/"
+    description: "Theme source code"
   - title: "About"
     url: "/about/"
-    description: "Short story about me."
+    description: "A little story about the theme"
 
 # footer links
 footer:
-  - owner: "Mani Kumar"
-    url: "https://manid2.github.io/"
-    description: "Mani Kumar home"
-    bio: "Software Engineer"
-    address: "Bangalore, KA, India."
+  - owner: "Your Name"
+    url: # link if any
+    description: # tool tip for your url
+    bio: "I am awesome" # short bio
+    address: # location
   - social:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/manid2"
+      url: # github link
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/manid2/"
+      url: # linkedin profile link
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mani_d2"
+      url: # twitter profile link
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: # instagram profile link
   - feed:
     - label: "Sitemap"
       icon: "fas fa-sitemap"
-      url: "sitemap"
+      url: "/sitemap.xml"
     - label: "RSS"
       icon: "fas fa-fw fa-rss-square"
-      url: "feed"
+      url: "/feed.xml"
