@@ -1,0 +1,171 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+theme                    : # "lone-wolf-theme"
+remote_theme             : "manid2/lone-wolf-theme"
+bootswatch_theme         : "cerulean" # cerulean, spacelab, united
+
+# site Settings
+locale                   : "en-US"
+title                    : "Mani Kumar"
+description              : "A versatile coder, pragmatic thinker and a humorous writer."
+url                      : "https://thelastvvv.github.io/" # the base hostname & protocol for your site
+baseurl                  : # the subpath of your site, e.g. "/site"
+repository               : # site repo
+teaser                   : # path of fallback teaser image, e.g. "teaser_default.png" in /assests/images folder
+logo                     : "mani_blog_logo.png" # path of site logo image
+words_per_minute         : 200
+
+# comments settings
+comments:
+  provider               : "disqus" # false (default), "disqus", "custom"
+  disqus:
+    shortname            : "https-manid2-github-io-1" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+
+# feed
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+
+# site search settings
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # google
+
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+
+# site verifications, jekyll-seo-tag plugin
+webmaster_verifications:
+  google:  "#"
+  bing:    "#"
+  alexa:   # 1234
+  yandex:  "#"
+  baidu:   # 1234
+
+# Analytics
+analytics:
+  provider               : "google-gtag" # false (default), "google-gtag", "custom"
+  google:
+    tracking_id          : "UA-130093536-1"
+    anonymize_ip         : # true, false (default)
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore /docs in theme
+  - /test # ignore /test in theme
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 10
+paginate_path: "/blog/page/:num/"
+timezone: "" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# site defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      show_hero: true
+      show_author: true
+      show_toc: true
+      share: true
+      show_comments: true
+      show_ads: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      show_ads: true

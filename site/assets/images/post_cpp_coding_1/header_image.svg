@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="109.31mm"
+   height="61.734001mm"
+   version="1.1"
+   viewBox="0 0 109.31 61.734001"
+   id="svg16"
+   sodipodi:docname="header_image.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs20" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1533"
+     inkscape:window-height="845"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="0.84096521"
+     inkscape:cx="334.44281"
+     inkscape:cy="-10.873008"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g14"
+     transform="translate(-19.431,-21.959999)">
+    <rect
+       x="19.431"
+       y="21.959999"
+       width="109.31"
+       height="61.734001"
+       ry="0"
+       id="rect4"
+       style="fill:#800000;stroke-width:0.028222" />
+    <text
+       x="73.829765"
+       y="41.830639"
+       font-size="11.289px"
+       letter-spacing="0px"
+       word-spacing="0px"
+       style="font-size:11.28899956px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#f0f0f0;stroke-width:0.28222001px"
+       xml:space="preserve"
+       id="text12"><tspan
+         x="73.829765"
+         y="41.830639"
+         text-align="center"
+         style="line-height:1.25;text-align:center"
+         id="tspan6">Cpp Coding</tspan><tspan
+         x="73.829765"
+         y="55.941753"
+         text-align="center"
+         style="line-height:1.25;text-align:center"
+         id="tspan8">Part 1</tspan><tspan
+         x="73.829765"
+         y="70.052872"
+         text-align="center"
+         style="line-height:1.25;text-align:center"
+         id="tspan10">Design Stage</tspan></text>
+  </g>
+</svg>

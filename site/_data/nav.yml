@@ -1,0 +1,33 @@
+# header links
+header:
+  - title: "All posts"
+    url: "/all-posts/"
+    description: "All posts in blog grouped by year."
+  - title: "About"
+    url: "/about/"
+    description: "Short story about me."
+
+# footer links
+footer:
+  - owner: "Mani Kumar"
+    url: "https://manid2.github.io/"
+    description: "Mani Kumar home"
+    bio: "Software Engineer"
+    address: "Bangalore, KA, India."
+  - social:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/manid2"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/manid2/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mani_d2"
+  - feed:
+    - label: "Sitemap"
+      icon: "fas fa-sitemap"
+      url: "sitemap"
+    - label: "RSS"
+      icon: "fas fa-fw fa-rss-square"
+      url: "feed"

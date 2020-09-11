@@ -1,0 +1,20 @@
+---
+layout: page
+title: "Projects"
+permalink: /projects/
+---
+
+{%- assign projects = site.data.projects -%}
+
+<ul>
+  {%- for project in projects -%}
+    <li id="{{ project.title | slugify }}">
+      <a href="{{ project.repo }}" title="Go to {{ project.title }}">
+        {{ project.title }}
+      </a>
+      <p class="font-italic text-muted">
+        {{ project.headline }}<br>
+      </p>
+    </li>
+  {%- endfor -%}
+</ul>
