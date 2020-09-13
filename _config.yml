@@ -19,7 +19,7 @@ paginate: 10
 # Uncomment the below lines and set the Disqus shortname for enabling Disqus
 # 
 # disqus:
-
+skin: Midnight
 # Jekyll
 # ======
 exclude:
