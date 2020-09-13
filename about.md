@@ -12,16 +12,16 @@ permalink: /about/
 ### Welcome TO My Blog!
 
 
-I'm Fahad also known as "@TheLastVvV" 🐍 🐍🐍
+I'm Fahad also known as "@TheLastVvV" 🐍 🐍🐍.
 In my free time i report vulnerabilities and sometimes i play CTFs.
 I enjoy learning by Contributing and i wish you all to be safe.
 
 
 
 
-### All  My Coordinated/Disclosed Vulnerabilities can be found here
+### All  My Coordinated/Disclosed Vulnerabilities can be found here:
 
-[packetstormsecurity.com](https://packetstormsecurity.com/files/author/14846/)
+[https://packetstormsecurity.com/files/author/14846/](https://packetstormsecurity.com/files/author/14846/)
 
 
 
@@ -52,7 +52,8 @@ iChat Realtime PHP Live Support System 1.6|Michael-designs |Multi xss|CVE-2020-2
 
  
 
-###You Can Search CVE ids on [cve.mitre.org](https://cve.mitre.org)
+### You Can Search CVE ids on:
+[cve.mitre.org](https://cve.mitre.org)
 
 
 You can find me on [TryHackMe](https://tryhackme.com/p/TheastVvV)
