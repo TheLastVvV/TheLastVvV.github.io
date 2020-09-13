@@ -12,7 +12,7 @@ permalink: /about/
 ### Welcome TO My Blog!
 
 
-I'm Fahad also known as "@TheLastVvV" 🐍 🐍🐍.
+I'm Fahad also known as `@TheLastVvV` 🐍 🐍🐍.
 In my free time i report vulnerabilities and sometimes i play CTFs.
 I enjoy learning by Contributing and i wish you all to be safe.
 
