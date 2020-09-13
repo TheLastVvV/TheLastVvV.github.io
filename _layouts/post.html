@@ -1,66 +1,87 @@
 ---
 layout: default
 ---
-<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
-    <a class="nav nav--white" href="{{ site.baseurl }}/">
-      <i class="fa fa-lg fa-arrow-left"></i>
-      <span>Back to Posts</span>
-    </a>
-    <figure class="absolute-bg mast__img" style="background-image: url('{{ page.image }}');"></figure>
-    <div class="mast__container">
-      <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
-      <h1 itemprop="name headline">{{ page.title }}</h1>
-      {% if page.categories.size > 0 %}
-        <span>Posted in 
-          {% for category in page.categories %}
-            <a class="nav--white" href="{{ site.baseurl }}/category/{{ category | downcase | slugify }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}
-          {% endfor %}
-        </span>
-      {% endif %}
-      <span></span>
-    </div>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.modified_date -%}
+        ~ 
+        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+          {{ mdate | date: date_format }}
+        </time>
+      {%- endif -%}
+      {%- if page.author -%}
+        • {% for author in page.author %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
+            {%- if forloop.last == false %}, {% endif -%}
+        {% endfor %}
+      {%- endif -%}
+    </p>
+
   </header>
 
-  <section class="section-padding bg-grey" itemprop="articleBody">
-    <div class="post">
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
 
-      {{ content }}
-      
-    </div>
-  </section>
-
-  <section class="profile">
-    <div class="profile__card">
-      <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('{{ site.profile_img }}');"></figure>
+  <footer class="post-footer">
+    {% if page.categories.size > 0 %}
+      <div class="post-meta">
+        <i class="fas fa-folder"></i>
+        <ul class="post-taxonomies post-categories">
+          {% assign categories = page.categories | sort %}
+          {% for category in categories %}
+            <li class="post-category">
+              {% assign slugified_category = category | slugify %}
+              <a href="{{ '/categories/#:category' | replace: ':category', slugified_category | relative_url }}">{{ category }}</a>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
-      <div class="profile__container">
-        <p>{{ site.profile }}</p>
-        {% if site.email or site.social %}
-          <ul class="profile__social">
-            {% if site.email %}
-              <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.email }}"></a></li>
-            {% endif %}
-            {% for social in site.social %}
-              <li><a class="fa fa-lg fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </div>
-    </div>
-  </section>
+    {% endif %}
 
+    {% if page.tags.size > 0 %}
+      <div class="post-meta">
+        <i class="fas fa-tags"></i>
+        <ul class="post-taxonomies post-tags">
+          {% assign tags = page.tags | sort %}
+          {% for tag in tags %}
+            <li class="post-tag">
+              {% assign slugified_tag = tag | slugify %}
+              <a href="{{ '/tags/#:tag' | replace: ':tag', slugified_tag | relative_url }}">{{ slugified_tag }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    <nav class="post-pagination" role="navigation">
+      {% if page.previous %}
+        <a class="post-previous" href="{{ page.previous.url | relative_url }}">
+          <i class="fas fa-arrow-left"></i> {{ page.previous.title | markdownify | strip_html }}
+        </a>
+      {% endif %}
+    
+      {% if page.next %}
+        <a class="post-next" href="{{ page.next.url | relative_url }}">
+          {{ page.next.title | markdownify | strip_html }} <i class="fas fa-arrow-right"></i>
+        </a>
+      {% endif %}
+    </nav>
+  </footer>
+
+  {% if page.comments != false and jekyll.environment == "production" and site.disqus %}
+    {% include disqus.html %}
+  {% endif %}
+  
 </article>
-
-{% if page.previous.url %}
-  <section class="next">
-    <a class="next__link" href="{{page.previous.url | prepend: site.baseurl }}" style="background-image: url('{{ page.previous.image }}');">
-      <div class="next__container">
-        <span>Read Next</span>
-        <h2>{{page.previous.title}}</h2>
-      </div>
-    </a>
-  </section>
-{% endif %}

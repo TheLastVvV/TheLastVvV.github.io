@@ -1,21 +1,28 @@
----
-layout: compress
----
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+  <head>
+    {% include head.html %}
+  </head>
 
   <body>
-
-    <main>
-
-      {{ content }}
-
-    </main>
-
-    {% include footer.html %}
-
+    <div class="site-container">
+      <header class="site-header">
+        {% include header.html %}
+      </header>
+      
+      <div class="site-body wrapper">
+        <aside class="site-sidebar" id="site-sidebar">
+          {% include sidebar.html %}
+        </aside>
+        <main class="site-main" id="site-main" aria-label="Content">
+          {{ content }}
+          <footer class="site-footer">
+            {% include footer.html %}
+          </footer>
+        </main>
+      </div>
+    </div>
   </body>
 
 </html>

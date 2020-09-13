@@ -1,3 +1,6 @@
-_site
+*.gem
+.bundle
+.jekyll-cache
 .sass-cache
-.jekyll-metadata
+_site
+Gemfile.lock
