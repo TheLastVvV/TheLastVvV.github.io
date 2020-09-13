@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Hello World
-author: Shangzhi Huang
+categories: hello
+author: ThelastVvV
 date: 2020-03-11 18:42:53 +0800
 tags: [test, hello]
 ---
