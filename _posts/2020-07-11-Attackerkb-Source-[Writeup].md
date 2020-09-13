@@ -1,21 +1,26 @@
 ---
 layout: post
 title: AttackerKB & Source | Writeup
-categories: hello
+categories: CTF
 author: ThelastVvV
-date: '2020-03-11 18:42:53 +0800'
+date: '2020-07-11 18:42:53 +0800'
 tags:
-  - test
-  - hello
+  - CTF
+  - CyberSecurity
+  - TryHackMe
 published: true
 ---
 
  Hallå gubbar , Today i will show you how easy this boxes are in a very simple explanation both [AttackerKB](https://tryhackme.com/room/attackerkb) &  [Source](https://tryhackme.com/room/source).
  
-### 1 - Enumeration
-### 2 - Exploitation
-### 3-  Reverse shell
-### 4-AttackerKB Tasks
+
+
+
+
+`1 - Enumeration`
+`2 - Exploitation`
+`3-  Reverse shell`
+`4-AttackerKB Tasks`
 
 
 ### 1 - Enumerationnmap scan :
@@ -67,8 +72,11 @@ then choose > unix/webapp/webmin_backdoor
 
 
 > RHOSTS : Box-ip
+
 RPORT: Box-port
+
 LHOST: Your-ip
+
 SSL : 1
 
 
@@ -96,18 +104,24 @@ Answers:
 
 
 
-#2-Webmin
-#3-1.890
-#4- from cert bellow figure it out
+`2-Webmin`
+
+`3-1.890`
+
+`4- from cert bellow figure it out`
 
 ### Task 3 - learning to fly:
 Just explore Attackerkb then we will be able to answer the following "important to copy directly from Attackerkb site 
+
 Answers: 
 
-#3 1.890 
-#4 supply chain 
-#5 aug172019 
-#6 githubfileinthetitle
+`3 1.890 
+
+`4 supply chain`
+ 
+`5 aug172019`
+
+`6 githubfileinthetitle`
 
 
 
