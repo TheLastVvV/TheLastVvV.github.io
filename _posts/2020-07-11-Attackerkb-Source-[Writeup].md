@@ -14,12 +14,16 @@ published: true
  Hallå gubbar , Today i will show you how easy this boxes are in a very simple explanation both [AttackerKB](https://tryhackme.com/room/attackerkb) &  [Source](https://tryhackme.com/room/source).
  
 
+    ![alt text](https://thelastvvv.github.io/images/posts/1/flagroot.png "flag2")
 
 
 
 `1 - Enumeration`
+
 `2 - Exploitation`
+
 `3-  Reverse shell`
+
 `4-AttackerKB Tasks`
 
 
@@ -69,7 +73,7 @@ then choose
 $ unix/webapp/webmin_backdoor
 ```
 
-![alt text](/blob/master/images/posts/1/attavk.png "metasploit")
+![alt text](https://thelastvvv.github.io/images/posts/1/attavk.png "metasploit")
 
 
 
@@ -84,18 +88,19 @@ $ unix/webapp/webmin_backdoor
 
 ### 3- Reverse shell
 
+![alt text](https://thelastvvv.github.io/images/posts/1/reverse.png "shell")
 
 volia session opened we are root so let check the hints and hunt the flags
 
 User Flag:
 
-
+![alt text](https://thelastvvv.github.io/images/posts/1/flag1.png "flag1")
 
 
 Root Flag:
 
 
-
+![alt text](https://thelastvvv.github.io/images/posts/1/flagroot.png "flag2")
 ### 4-AttackerKB Tasks:
 
 Task 2 -Discovering the Lay of the Land :
