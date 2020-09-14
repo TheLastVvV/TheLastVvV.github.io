@@ -14,7 +14,7 @@ published: true
  Hallå gubbar , Today i will show you how easy this boxes are in a very simple explanation both [AttackerKB](https://tryhackme.com/room/attackerkb) &  [Source](https://tryhackme.com/room/source).
  
 
-    ![alt text](https://thelastvvv.github.io/images/posts/1/flagroot.png "flag2")
+    ![alt text](https://thelastvvv.github.io/images/posts/1/bloggg.jpg "THM")
 
 
 
@@ -88,7 +88,9 @@ $ unix/webapp/webmin_backdoor
 
 ### 3- Reverse shell
 
+
 ![alt text](https://thelastvvv.github.io/images/posts/1/reverse.png "shell")
+
 
 volia session opened we are root so let check the hints and hunt the flags
 
@@ -101,6 +103,7 @@ Root Flag:
 
 
 ![alt text](https://thelastvvv.github.io/images/posts/1/flagroot.png "flag2")
+
 ### 4-AttackerKB Tasks:
 
 Task 2 -Discovering the Lay of the Land :
