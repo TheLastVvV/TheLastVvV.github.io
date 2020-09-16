@@ -12,12 +12,13 @@ published: true
 ---
 
 
-- [AttackerKB & Source](#AttackerKB-&-Source)
-  * [Enumeration](#Enumeration)
-   * [Exploitation](#Exploitation)
-  * [Reverse shell](#Reverse-shell)
-  * [AttackerKB Tasks](#AttackerKB-Tasks)
-  
+# Table of contents
+
+- [AttackerKB & Source](#attackerkb--source)
+  - [Enumeration:](#enumeration)
+  - [Exploitation](#exploitation)
+  - [Reverse shell](#reverse-shell)
+  - [AttackerKB Tasks:](#attackerkb-tasks)
 
 <!-- toc -->
 
