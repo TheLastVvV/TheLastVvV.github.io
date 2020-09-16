@@ -16,10 +16,10 @@ published: true
 
 
 - [AttackerKB & Source](#heading)
-  * [Enumeration](#sub-heading)
-   * [Exploitation](#sub-heading-1)
-  * [Reverse shell](#sub-heading-2)
-  * [AttackerKB Tasks](#sub-heading-3)
+  * [Enumeration](#Enumeration)
+   * [Exploitation](#Exploitation)
+  * [Reverse shell](#Reverse shell)
+  * [AttackerKB Tasks](#AttackerKB Tasks)
   
 
 <!-- toc -->
@@ -27,7 +27,7 @@ published: true
 
 
 
-### 1 - Enumerationnmap scan :
+### Enumeration:
 
 ```sh
 $ nmap -T4 -A -v -Pn Box-ip
@@ -45,7 +45,7 @@ Results:
 10000/tcp open http MiniServ 1.890 (Webmin httpd)
 
 
-### 2 - Exploitation
+### Exploitation
 Source and AttackerKB:
 
 One of the attached files of vulnerability is metasploit module that will allow us reverse shell the box so let open Metasploit
@@ -86,7 +86,7 @@ $ unix/webapp/webmin_backdoor
 >SSL : 1
 
 
-### 3- Reverse shell
+### Reverse shell
 
 
 ![alt text](https://thelastvvv.github.io/images/posts/1/reverse.png "shell")
@@ -104,9 +104,11 @@ Root Flag:
 
 ![alt text](https://thelastvvv.github.io/images/posts/1/flagroot.png "flag2")
 
-### 4-AttackerKB Tasks:
+### AttackerKB Tasks:
 
-Task 2 -Discovering the Lay of the Land :
+Task 2 :
+
+-Discovering the Lay of the Land :
 
 From Nmap results we can find all our answers .....
 
@@ -117,9 +119,10 @@ Answers:
 
 `4- from cert bellow figure it out`
 
-### Task 3 :
+Task 3 :
 
  learning to fly:
+
 Just explore Attackerkb then we will be able to answer the following "important to copy directly from Attackerkb site 
 
 Answers: 
