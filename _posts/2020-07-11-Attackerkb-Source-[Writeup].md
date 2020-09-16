@@ -12,7 +12,6 @@ published: true
 ---
 
 
-# Table of contents
 
 - [AttackerKB & Source](#attackerkb--source)
   - [Enumeration:](#enumeration)
