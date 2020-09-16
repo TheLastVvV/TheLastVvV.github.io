@@ -24,6 +24,7 @@ Hallå gubbar, this one is a lil bit difficult but hey we can do it specially if
 
 ### Enumeration
 
+![alt text](https://thelastvvv.github.io/images/posts/2/scanbank.png "THM")
 
 After we scan using Nmap we found 80 port open = http
 
@@ -32,6 +33,7 @@ http:/ip-box:80
 ```
 
 
+![alt text](https://thelastvvv.github.io/images/posts/2/main.png "THM")
 
 
 then it will redirect you to the login page
@@ -39,6 +41,9 @@ we found other 2 pages
 give gold ( to send gold to other users) / purchase (buy premium ) 
 
 
+![alt text](https://thelastvvv.github.io/images/posts/2/buyme.png "THM")
+
+![alt text](https://thelastvvv.github.io/images/posts/2/givegold.png "THM")
 
 
 
@@ -72,6 +77,8 @@ i will try to make it easy for you
 we need to intercept the gold transfer request using BURPYYY...
 
 
+![alt text](https://thelastvvv.github.io/images/posts/2/burp.png "THM")
+
 2. Now we got cookie id tag (request)
 
 3. Loop requests in this case we will use wfuzz 
@@ -80,7 +87,8 @@ but first create txt file and each line should have number 1 ( 1 gold remember )
 
 " Dont worry i said i will make it easy for you "
 
-https://pastebin.com/MxnwWnWG
+[https://pastebin.com/MxnwWnWG](https://pastebin.com/MxnwWnWG)
+
 
  command :
  
@@ -110,6 +118,7 @@ then go back to test22 and fuzz it again
 4. so in 3 steps you will have more 10k gold enough to buy premium !
 
 
+![alt text](https://thelastvvv.github.io/images/posts/2/10kgold.png "THM")
 
 ### Reverse shell
 
@@ -126,6 +135,7 @@ voila!
 
 
 
+![alt text](https://thelastvvv.github.io/images/posts/2/shell.png "THM")
 
 ### Flags
 
@@ -157,6 +167,8 @@ chmod 777 cleanupscript.sh
 
 Run it and wait 1 min then check for for output
 
+
+![alt text](https://thelastvvv.github.io/images/posts/2/rootflag.png "THM")
 
 See you next time ......
 
