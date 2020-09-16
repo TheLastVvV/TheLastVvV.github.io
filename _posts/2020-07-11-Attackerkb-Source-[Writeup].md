@@ -24,7 +24,7 @@ published: true
 ## AttackerKB & Source
 
  Hallå gubbar , Today i will show you how easy this boxes are in a very simple explanation both [AttackerKB](https://tryhackme.com/room/attackerkb) &  [Source](https://tryhackme.com/room/source).
-![alt text](https://thelastvvv.github.io/images/posts/1/bloggg.jpg "THM")
+
 
 
 ### Enumeration:
