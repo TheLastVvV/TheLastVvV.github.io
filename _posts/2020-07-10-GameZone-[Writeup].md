@@ -24,16 +24,10 @@ published: true
 
 ### Game Zone 
 Hallå gubbar , I'm a big fan of  Sql injection vulnerabilities  and i 'm in love with Sqlmap  for ages and we are lucky to have this box to work on not hard at all and very easy if you follow up carefully .
-try it out at Game Zone
+try it out at [Game Zone](https://tryhackme.com/room/gamezone)
 
 
 
-
-1- Enumeration
-2- Exploitation
-3- Reverse SSH tunnels
-3- Reverse shell
-4- Root Flag
 
 
 
