@@ -11,7 +11,7 @@ tags:
 published: true
 ---
 
-# Table of contents
+### Table of contents
 
 - [Introduction](#introduction)
 - [The Past and future](#the-past-and-future)
