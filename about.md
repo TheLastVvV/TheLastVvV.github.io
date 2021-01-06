@@ -18,7 +18,7 @@ I'm Fahad also known as `@TheLastVvV` 🐍 🐍🐍.
 In my free time i report vulnerabilities and sometimes i play CTFs.
 
 
-I enjoy learning by Contributing and i wish you all to be safe.
+I enjoy learning by Contributing -  I hope you are staying healthy and safe during this hard times.
 
 
 
@@ -61,6 +61,8 @@ iChat Realtime PHP Live Support System 1.6|Michael-designs |Multi xss|CVE-2020-2
 
 
 ### You can find me on :
+
+[Hackerone](https://hackerone.com/thelastvvv-com?type=user)
 
 [TryHackMe](https://tryhackme.com/p/TheastVvV)
 
