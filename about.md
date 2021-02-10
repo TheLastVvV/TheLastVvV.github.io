@@ -53,7 +53,7 @@ Soluzione Globale Ecommerce cms v1|Soluzioneglobale|SQL injection|CVE-2020-23978
 DME Conference management system |DesignMasterEvents|Xss|CVE-2020-23982
 Online Hotel Booking System Pro PHP v1.3|Bestsoftinc| Xss|CVE-2020-23984
 iChat Realtime PHP Live Support System 1.6|Michael-designs |Multi xss|CVE-2020-23983
-
+Discord Probot 2021 | Probot.io |Unrestricted File Upload |CVE-2021-26918
  
 
 ### You Can Search CVE IDs on:
