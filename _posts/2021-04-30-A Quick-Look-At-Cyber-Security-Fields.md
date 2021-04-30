@@ -35,7 +35,7 @@ Cyber security is combination of practice, strategies and policies that aim to p
 ## Web security
 Web security field is incredibly famous branch of cyber security as we can see most internet users either own or visit websites and it's important to know how threat actors attack these websites and how to protect them, this why we can showcase some famous OWASP top ten web application security vulnerabilities: SQL injection, Cross-site scripting, and Broken Access Control. 
 
- ### SQL injection
+### SQL injection
  
  SQL Injection: the threat attacker can inject SQL commands to manipulate or expose hidden data of the database and Theres many types of  SQL injection.  
 - Attack : 
