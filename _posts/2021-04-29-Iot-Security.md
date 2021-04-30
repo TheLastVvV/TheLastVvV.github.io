@@ -16,3 +16,5 @@ published: true
 
 
 {% pdf "/images/posts/6/iotsec.pdf" %}
+<embed src="https://www.TheLastVvV.github.io/images/posts/6/iotsec.pdf" type="application/pdf" />
+
