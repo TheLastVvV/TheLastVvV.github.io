@@ -15,4 +15,4 @@ published: true
 # Comunication: IoT Security
 
 
-{% pdf "/images/posts/6/iotsec.pptx" %}
+{% pdf "/images/posts/6/iotsec.pdf" %}
