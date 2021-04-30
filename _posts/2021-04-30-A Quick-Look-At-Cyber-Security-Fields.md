@@ -14,15 +14,15 @@ published: true
 ### Table of contents
 
 - [Introduction](#introduction)
-- [Web security](#Web-security)
-  - [SQL injection ](#SQL-injection)
-  - [Cross site-scripting ](#Cross-site-scripting)
-  - [ Security Misconfiguration ](#Security-Misconfiguration)
- - [Software Security](#Software-Security)
-   - [Buffer Overflow ](#Buffer-Overflow )
-  - [IP Security  ](#IP-Security  )
-  - [Email Security  ](#Email-Security  )
-  - [ Conclusion  ](#Conclusion  )
+- [Web security](#web-security)
+  * [SQL injection](#sql-injection)
+  * [Cross site-scripting](#cross-site-scripting)
+  * [Security Misconfiguration](#security-misconfiguration)
+- [Software Security](#software-security)
+  * [Buffer Overflow](#buffer-overflow)
+- [IP Security](#ip-security)
+- [Email-Security](#email-security)
+- [Conclusion](#conclusion)
 <!-- toc -->
  
 
@@ -87,8 +87,10 @@ From webserver Linux point of view , SUID means set user id , some files in Linu
 ![alt text](https://thelastvvv.github.io/images/posts/5/sec_1.png "sec1")
 The threat actor can preform Privilege escalation from a normal user in system to root . 
 ![alt text](https://thelastvvv.github.io/images/posts/5/sec_2.png "sec2")
-As we can see  this system can be exploited by  runing sudo superuser command in ENV binary that results an access to the file system, escalating or maintain privileged access. 
+As we can see  this system can be exploited by  runing sudo superuser command in ENV binary that results an access to the file system, escalating or maintain privileged access.
+ 
 ![alt text](https://thelastvvv.github.io/images/posts/5/sec_3.png "sec3")
+
 Defend: 
 
 - "Secure installation processes"
