@@ -14,4 +14,5 @@ published: true
 
 # Comunication: IoT Security
 
-{% pdf "https://thelastvvv.github.io/images/posts/6/iotsec.pptx" %}
+
+{% pdf "/images/posts/6/iotsec.pptx" %}
