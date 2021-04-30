@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Quick Look At Cyber Security Fields 
-categories: Cyber Security
+categories: CyberSecurity
 author: ThelastVvV
 date: '2021-04-30 05:00:53 +0000'
 tags:
