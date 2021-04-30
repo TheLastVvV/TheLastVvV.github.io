@@ -15,5 +15,5 @@ published: true
 # Comunication: IoT Security
 
 
-<embed src="./images/posts/6/iotsec.pdf" width="500" height="375"  type="application/pdf" />
+<embed src="https://www.thelastvvv.com/images/posts/6/iotsec.pdf" width="500" height="375" type="application/pdf" />
 
