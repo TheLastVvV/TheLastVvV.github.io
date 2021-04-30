@@ -15,5 +15,5 @@ published: true
 # Comunication: IoT Security
 
 
-<embed src="https://www.TheLastVvV.github.io/images/posts/6/iotsec.pdf" type="application/pdf" />
+<embed src="https://www.thelastvvv.com/images/posts/6/iotsec.pdf" type="application/pdf" />
 
