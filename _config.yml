@@ -9,7 +9,11 @@ description: 'Security First | Learn - Connect - Contribute'
 
 # build
 highlighter: rouge
-exclude: ['LICENSE', 'README.md','scripts/']
+exclude:
+  - scripts/
+  - README.md
+  - LICENSE
+
 
 # theme
 featured-height: 200 # featured image height; options: intiger, default: false (300px)
