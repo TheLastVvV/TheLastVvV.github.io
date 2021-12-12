@@ -1,6 +1,5 @@
 # SITE
 url: 'https://thelastvvv.com/'
-baseurl: ''
 permalink: /:title/
 
 title: 'TheLastVvV'
