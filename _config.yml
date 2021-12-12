@@ -10,6 +10,10 @@ description: 'Security First | Learn - Connect - Contribute'
 highlighter: rouge
 exclude: ['LICENSE', 'README.md']
 
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
 
 # theme
 featured-height: 200 # featured image height; options: intiger, default: false (300px)
