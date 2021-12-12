@@ -1,21 +1,21 @@
-site: ThelastVvV
-title: ThelastVvV
-greetings: 🐍🐍🐍
+site: "ThelastVvV"
+title: "ThelastVvV"
+greetings: "🐍🐍🐍"
 description: >-
-  Security First | Learn - Connect - Contribute
+  Security First - Learn - Connect - Contribute
 lang: en-US
 timezone:  Europe/Rome
-repo: https://github.com/thelastvvv # site repo [optional]
-data-theme: dark # default theme "dark" | "light"
-discus-identifier: thelastvvv # replace with your disqus shortname
+repo: "https://github.com/thelastvvv"
+data-theme: "dark"
+discus-identifier: "thelastvvv"
 
 author:
-  name: ThelastVvV
-  bio: Security First 
+  name: "ThelastVvV"
+  bio: "Security First" 
   userpicture: logo.png
-  username: ThelastVvV # general username
-  github: ThelastVvV # github username
-  twitter: ThelastVvV # twitter username
+  username: "ThelastVvV" # general username
+  github: "ThelastVvV" # github username
+  twitter: "ThelastVvV" # twitter username
   email: thelastvvv@protonmail.ch # email adress
 
 # Font Settings
