@@ -9,10 +9,7 @@ description: 'Security First | Learn - Connect - Contribute'
 
 # build
 highlighter: rouge
-exclude:
-  - scripts/
-  - README.md
-  - LICENSE
+exclude: ['LICENSE', 'README.md']
 
 
 # theme
