@@ -1,6 +1,10 @@
-# Jekyll
-_drafts/
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+tmp
+*.rdb
+.env
+.sass-cache
+.DS_Store
+_site
+.jekyll-cache
+.git
+.vscode
+.obsidian
