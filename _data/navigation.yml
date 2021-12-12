@@ -1,14 +1,4 @@
 - title: About
-  url: /about/
+  url: /about
 - title: Archive
-  url: /archive/
-- title: Categories
-  url: /categories/
-- title: Tags
-  url: /tags/
-- title: More
-  sublinks:
-    - title: FAQ
-      url: /faq/
-    - title: Docs
-      url: /docs/
+  url: /archive

@@ -1,28 +1,41 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    {% include head.html %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{% if page.layout == "homepage" %}{{ site.title }}{% else %}{{ page.title }} - {{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.layout == "homepage" %}{{ site.description }}{% else %}{{ page.excerpt | strip_html | strip_newlines }}{% endif %}">
+    <link rel="shortcut icon" href="{{ '/favicon.ico' | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
+    <link href="{{ '/feed.xml' | absolute_url }}" type="application/rss+xml" rel="alternate" title="Latest 10 blog posts (atom)">
   </head>
-
-  <body>
-    <div class="site-container">
-      <header class="site-header">
-        {% include header.html %}
-      </header>
-      
-      <div class="site-body wrapper">
-        <aside class="site-sidebar" id="site-sidebar">
-          {% include sidebar.html %}
-        </aside>
-        <main class="site-main" id="site-main" aria-label="Content">
-          {{ content }}
-          <footer class="site-footer">
-            {% include footer.html %}
-          </footer>
+  <body class="{% if site.pixelate-all %}pixelate-all{% elsif site.pixelate-featured %}pixelate-featured{% endif %}">
+    <div id="preloader"><div id="status"><img id="loader" src="{{ 'assets/images/loader.gif' | absolute_url }}"></div></div>
+    <div id="wrapper">
+      <div id="content">
+        <header class="header">
+          {% include header.html %}
+        </header>
+        <main class="main">
+          {{ content}}
         </main>
+        <footer class="footer">
+          {% include footer.html %}
+        </footer>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="{{ '/assets/js/flowtype.js' | absolute_url }}"></script>
+    <script src="{{ '/assets/js/pixelate.js' | absolute_url }}"></script>
+    <script src="{{ '/assets/js/main.js' | absolute_url }}"></script>
+    <script>
+      //<![CDATA[
+        $(window).on('load', function() {
+          $('#status').fadeOut();
+          $('#preloader').delay(350).fadeOut('slow');
+          $('body').delay(500).css({'overflow':'visible'});
+        });
+      //]]>
+    </script>
   </body>
-
 </html>

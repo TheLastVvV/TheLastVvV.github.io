@@ -1,3 +1,16 @@
 ---
-layout: home
+layout: homepage
 ---
+
+<section>
+    <h1>Welcome!</h1>
+
+    <p> Security Enthusiast </p>
+</section>
+<section>
+    <h1>Latest Articles</h1>
+    {% for post in site.posts limit: 5 %}
+    {% include archive-item.html %}
+    {% endfor %}
+    <p class="sub-section"><a href="{{ '/archive' | absolute_url }}">Read More Articles &rarr;</a></p>
+</section>

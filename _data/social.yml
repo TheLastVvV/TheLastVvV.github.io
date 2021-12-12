@@ -1,6 +1,6 @@
 - title: Twitter
   url: https://twitter.com/TheLastVvV
-  icon: fab fa-twitter
 - title: GitHub
   url: https://github.com/TheLastVvV
-  icon: fab fa-github
+- title: Feed
+  url: /feed.xml
