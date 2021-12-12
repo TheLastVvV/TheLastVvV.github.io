@@ -1,17 +1,17 @@
-site: Gesko
-title: Gesko
-greetings: Hi 👋
+site: ThelastVvV
+title: ThelastVvV
+greetings: 🐍🐍🐍
 description: >-
-  just a minimalist, personal blog
+  Security First | Learn - Connect - Contribute
 lang: en-US
 timezone:  Europe/Rome
-repo: https://github.com/p0wex/Gesko # site repo [optional]
+repo: https://github.com/thelastvvv # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 discus-identifier: thelastvvv # replace with your disqus shortname
 
 author:
   name: ThelastVvV
-  bio: Security First | Learn - Connect - Contribute
+  bio: Security First 
   userpicture: logo.png
   username: ThelastVvV # general username
   github: ThelastVvV # github username
@@ -23,7 +23,7 @@ googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;
 
 # URL settings
 url: "https://www.thelastvvv.com/" # Domain Name of host. [username].github.io for github pages
-baseurl: "/" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+baseurl: "" # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 permalink: pretty
 
 # local
