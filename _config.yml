@@ -58,6 +58,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-relative-links
+  - jekyll-include-cache
 
 collections:
   pages:
