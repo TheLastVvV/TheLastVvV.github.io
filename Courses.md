@@ -20,5 +20,8 @@ permalink: /Courses/
 
 
 <a href="{{ site.url }}{{ site.baseurl }}/"> Course #1 </a>
+<br>
 <a href="{{ site.url }}{{ site.baseurl }}/"> Course #2 </a>
+<br>
 <a href="{{ site.url }}{{ site.baseurl }}/"> Course #3 </a>
+<br>
