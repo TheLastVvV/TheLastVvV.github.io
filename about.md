@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: Default
 title: About
 permalink: /about/
 ---
-
 
 <section class="post">
   <div class="flex-row-between">
