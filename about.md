@@ -78,7 +78,7 @@ Discord Probot 2021 | Probot.io |Unrestricted File Upload |CVE-2021-26918
 
 ### Please feel free to contact me if you have any questions or concerns.
 
-<a href="mailto:thelastvvv@protonmail.ch">Contact me </a>.<br> 
+<a href="mailto:thelastvvv@protonmail.ch">Contact me </a><br> 
 
 
 
