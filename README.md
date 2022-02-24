@@ -1,5 +1,5 @@
 # Personal webiste/blog
-to share with you everything releated to Security and IT
+to share with you everything releated to CyberSecurity 
 # themes
 Gesko theme
 Simple and minimal Jekyll blog. 
