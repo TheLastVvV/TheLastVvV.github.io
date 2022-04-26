@@ -25,7 +25,7 @@ In my free time i report vulnerabilities and sometimes i play CTFs.
 
 
 
-                                                            Learn ∞ Connect ∞ Contribute
+                    Learn ∞ Connect ∞ Contribute
                                                             
 ## More  About Me:                                                          
                                                             
