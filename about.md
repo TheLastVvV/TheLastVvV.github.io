@@ -24,9 +24,12 @@ I'm Fahad also known as `@TheLastVvV` 🐍 🐍🐍.
 In my free time i report vulnerabilities and sometimes i play CTFs.
 
 
-I enjoy learning by Contributing -  I hope you are staying healthy and safe during this hard times.
 
-
+                                                            Learn ∞ Connect ∞ Contribute
+                                                            
+## More  About Me:                                                          
+                                                            
+Back in 2009, I was very curious about how things work and always wanted as kid to make things done as fast as possible and by the influences of my surrending i learn how to build and fix basic computer problems as times goes i was intruduced to linux operation systems and i was hooked by Debian linux since then untill i find myself playing with backtrack 3 then Stuxnet worm Attack happend. that event was life changing and opens my eyes to the future and what i want to be so i started my self learning journey from understanding viruses to hacking computers and servers at end i choose to turn my hobby into a career and since 2016 i took it seriously in 2019 i started to study cyber secuirty engeening while working on my start-up buisness and in the same time maintaining a healthy family life style .
 
 
 ### All  My Coordinated/Disclosed Vulnerabilities can be found here:
