@@ -11,13 +11,17 @@ tags:
 published: true
 ---
 
+- [Task 1: Reconnaissance & Scanning](#task-1--reconnaissance---scanning)
+    + [Question #1:](#question--1-)
+    + [Question #2:](#question--2-)
+    + [Question #3:](#question--3-)
+- [Task 2 : Boot To Root](#task-2---boot-to-root)
+    + [Question #1:](#question--1--1)
+    + [Question #2:](#question--2--1)
+    + [Question #4:](#question--4-)
+    + [Question #5:](#question--5-)
 
 
-### Tablet of Content:
-
-- [Task 1: Reconnaissance & Scanning](#Task 1: Reconnaissance & Scanning)
-- [Task 2 : Boot To Root](#task2)
-<!-- toc -->
 
 ## KAAF : The Dementia
 ## The easiest CTF for beginners
