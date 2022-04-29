@@ -10,9 +10,12 @@ tags:
   - hackthebox
 published: true
 ---
+
+
+
 ### Tablet of Content:
 
-- [Task 1: Reconnaissance & Scanning](#task1)
+- [Task 1: Reconnaissance & Scanning](#Task 1: Reconnaissance & Scanning)
 - [Task 2 : Boot To Root](#task2)
 <!-- toc -->
 
