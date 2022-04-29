@@ -4,7 +4,7 @@
  <title>ThelastVvV-Security First </title>
  <link href="https://www.thelastvvv.com//atom.xml" rel="self"/>
  <link href="https://www.thelastvvv.com//"/>
- <updated>2022-04-30T00:03:25+02:00</updated>
+ <updated>2022-04-30T00:04:31+02:00</updated>
  <id>https://www.thelastvvv.com/</id>
  <author>
    <name>ThelastVvV</name>
@@ -13,10 +13,10 @@
 
  
  <entry>
-   <title>Kaaf Thedementia%5bwriteup%5d</title>
-   <link href="https://www.thelastvvv.com//2022/04/18/kaaf-thedementia-5bwriteup-5d"/>
+   <title>Kaaf The Dementia | writeup</title>
+   <link href="https://www.thelastvvv.com//2022/04/18/kaaf-the-dementia-writeup"/>
    <updated>2022-04-18T00:00:00+02:00</updated>
-   <id>https://www.thelastvvv.com//2022/04/18/KAAF-TheDementia%5BWriteup%5D</id>
+   <id>https://www.thelastvvv.com//2022/04/18/KAAF-The-Dementia | Writeup</id>
    <content type="html">&lt;p&gt;layout: post
 title:  KAAF : The Dementia
 categories: CTF
