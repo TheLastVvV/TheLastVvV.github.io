@@ -4,7 +4,7 @@
  <title>ThelastVvV-Security First </title>
  <link href="https://www.thelastvvv.com//atom.xml" rel="self"/>
  <link href="https://www.thelastvvv.com//"/>
- <updated>2022-04-30T00:04:31+02:00</updated>
+ <updated>2022-04-30T00:06:09+02:00</updated>
  <id>https://www.thelastvvv.com/</id>
  <author>
    <name>ThelastVvV</name>
@@ -29,10 +29,13 @@ tags:&lt;/p&gt;
   &lt;li&gt;TryHackMe&lt;/li&gt;
   &lt;li&gt;hackthebox
 published: true
-—
-    &lt;h3 id=&quot;tablet-of-content&quot;&gt;Tablet of Content:&lt;/h3&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#task1&quot;&gt;Task 1: Reconnaissance &amp;amp; Scanning&lt;/a&gt;&lt;/li&gt;
+—&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tablet-of-content&quot;&gt;Tablet of Content:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#Task 1: Reconnaissance &amp;amp; Scanning&quot;&gt;Task 1: Reconnaissance &amp;amp; Scanning&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#task2&quot;&gt;Task 2 : Boot To Root&lt;/a&gt;
 &lt;!-- toc --&gt;&lt;/li&gt;
 &lt;/ul&gt;
