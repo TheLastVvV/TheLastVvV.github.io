@@ -11,11 +11,18 @@ tags:
   - hackthebox
 published: true
 ---
-###Table Of Content:
 
-- [Task 1: Reconnaissance & Scanning](#Task-1)
-- [Task 2 : Boot To Root](#Task-2)
-<!-- toc -->
+# Table of contents
+
+- [Task 1: Reconnaissance & Scanning](#task-1-reconnaissance--scanning)
+    - [Question #1:](#question-1)
+    - [Question #2:](#question-2)
+    - [Question #3:](#question-3)
+- [Task 2 : Boot To Root](#task-2--boot-to-root)
+    - [Question #1:](#question-1)
+    - [Question #2:](#question-2)
+    - [Question #4:](#question-4)
+    - [Question #5:](#question-5)
 
 
 
