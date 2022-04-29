@@ -1,3 +1,4 @@
+---
 layout: post
 title:  KAAF:The Dementia
 categories: CTF
@@ -10,6 +11,7 @@ tags:
   - hackthebox
 published: true
 ---
+###Table Of Content:
 
 - [Task 1: Reconnaissance & Scanning](#Task-1)
 - [Task 2 : Boot To Root](#Task-2)
