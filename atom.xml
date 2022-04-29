@@ -4,7 +4,7 @@
  <title>ThelastVvV-Security First </title>
  <link href="https://www.thelastvvv.com//atom.xml" rel="self"/>
  <link href="https://www.thelastvvv.com//"/>
- <updated>2022-04-30T00:41:26+02:00</updated>
+ <updated>2022-04-30T00:44:06+02:00</updated>
  <id>https://www.thelastvvv.com/</id>
  <author>
    <name>ThelastVvV</name>
@@ -17,12 +17,24 @@
    <link href="https://www.thelastvvv.com//2022/04/18/kaaf-the-dementia-writeup"/>
    <updated>2022-04-18T07:00:53+02:00</updated>
    <id>https://www.thelastvvv.com//2022/04/18/KAAF-The-Dementia[Writeup]</id>
-   <content type="html">&lt;p&gt;###Table Of Content:&lt;/p&gt;
+   <content type="html">&lt;h1 id=&quot;table-of-contents&quot;&gt;Table of contents&lt;/h1&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#Task-1&quot;&gt;Task 1: Reconnaissance &amp;amp; Scanning&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#Task-2&quot;&gt;Task 2 : Boot To Root&lt;/a&gt;
-&lt;!-- toc --&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#task-1-reconnaissance--scanning&quot;&gt;Task 1: Reconnaissance &amp;amp; Scanning&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#question-1&quot;&gt;Question #1:&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#question-2&quot;&gt;Question #2:&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#question-3&quot;&gt;Question #3:&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#task-2--boot-to-root&quot;&gt;Task 2 : Boot To Root&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#question-1&quot;&gt;Question #1:&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#question-2&quot;&gt;Question #2:&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#question-4&quot;&gt;Question #4:&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#question-5&quot;&gt;Question #5:&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;kaaf--the-dementia&quot;&gt;KAAF : The Dementia&lt;/h2&gt;
