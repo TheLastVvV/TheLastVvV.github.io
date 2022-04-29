@@ -4,13 +4,158 @@
  <title>ThelastVvV-Security First </title>
  <link href="https://www.thelastvvv.com//atom.xml" rel="self"/>
  <link href="https://www.thelastvvv.com//"/>
- <updated>2022-04-27T01:17:05+02:00</updated>
+ <updated>2022-04-29T23:58:33+02:00</updated>
  <id>https://www.thelastvvv.com/</id>
  <author>
    <name>ThelastVvV</name>
    <email>thelastvvv@protonmail.ch</email>
  </author>
 
+ 
+ <entry>
+   <title>Kaaf Thedementia%5bwriteup%5d</title>
+   <link href="https://www.thelastvvv.com//2022/04/18/kaaf-thedementia-5bwriteup-5d"/>
+   <updated>2022-04-18T00:00:00+02:00</updated>
+   <id>https://www.thelastvvv.com//2022/04/18/KAAF-TheDementia%5BWriteup%5D</id>
+   <content type="html">&lt;p&gt;layout: post
+title:  KAAF : The Dementia
+categories: CTF
+author: ThelastVvV
+date: ‘2022-04-18 05:00:53 +0000’
+tags:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CTF&lt;/li&gt;
+  &lt;li&gt;CyberSecurity&lt;/li&gt;
+  &lt;li&gt;TryHackMe&lt;/li&gt;
+  &lt;li&gt;hackthebox
+published: true
+—
+    &lt;h3 id=&quot;tablet-of-content&quot;&gt;Tablet of Content:&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#task1&quot;&gt;Task 1: Reconnaissance &amp;amp; Scanning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#task2&quot;&gt;Task 2 : Boot To Root&lt;/a&gt;
+&lt;!-- toc --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kaaf--the-dementia&quot;&gt;KAAF : The Dementia&lt;/h2&gt;
+&lt;h2 id=&quot;the-easiest-ctf-for-beginners&quot;&gt;The easiest CTF for beginners&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note*:Summary writeup some steps were skipped …&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;task-1-reconnaissance--scanning&quot;&gt;Task 1: Reconnaissance &amp;amp; Scanning&lt;/h1&gt;
+
+&lt;h3 id=&quot;question-1&quot;&gt;Question #1: &lt;/h3&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gobuster &lt;span class=&quot;nb&quot;&gt;dir&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; http://10.0.2.5 &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Results :&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/ftp                  &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;Status: 301&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;Size: 302] &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; http://10.0.2.5/ftp/]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Manual checking we get&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/ftp/upload/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;question-2&quot;&gt;Question #2:&lt;/h3&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nmap &lt;span class=&quot;nt&quot;&gt;-T4&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-A&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-Pn&lt;/span&gt;  10.0.2.5
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Results:&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ORT     STATE SERVICE       VERSION
+
+21/tcp   open  ftp           vsftpd 2.0.8 or later
+
+| ftp-syst: 
+
+|   STAT: 
+
+| FTP server status:
+
+|      Connected to ::ffff:10.0.2.4
+
+|      Logged &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;as ftp
+
+|      TYPE: ASCII
+
+|      No session bandwidth limit
+
+|      Session &lt;span class=&quot;nb&quot;&gt;timeout &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;seconds is 300
+
+|      Control connection is plain text
+
+|      Data connections will be plain text
+
+|      At session startup, client count was 3
+
+|      vsFTPd 3.0.3 - secure, fast, stable
+
+|_End of status
+
+| ftp-anon: Anonymous FTP login allowed &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;FTP code 230&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+| drwxrwxrwx    2 33       33           4096 Apr 20 18:36 upload &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;NSE: writeable]
+
+|_-rw-r--r--    1 33       33             49 Mar 29 22:51 vvv.txt
+
+22/tcp   open  ssh           OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;Ubuntu Linux&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; protocol 2.0&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+| ssh-hostkey: 
+
+|   3072 e7:26:d1:3f:6e:7f:cb:f4:34:98:98:33:57:86:1b:8e &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;RSA&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+|   256 38:6a:fc:16:b1:67:f6:ba:96:88:db:09:8e:6a:a8:83 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;ECDSA&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+|_  256 92:67:9d:d1:c3:0d:1d:b0:84:df:d6:44:7f:6b:c9:60 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;ED25519&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+
+80/tcp   open  http          Apache httpd 2.4.41 &lt;span class=&quot;o&quot;&gt;((&lt;/span&gt;Ubuntu&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+
+| http-methods: 
+
+|_  Supported Methods: POST OPTIONS HEAD GET
+
+|_http-title: Site doesn&lt;span class=&quot;s1&quot;&gt;&apos;t have a title (text/html).
+
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+
+3389/tcp open  ms-wbt-server xrdp
+
+Service Info: Host: Fahd; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Conclusion : ftp misconfiguration that allows anon login&lt;/p&gt;
+
+&lt;p&gt;Answer:ftp&lt;/p&gt;
+
+&lt;h3 id=&quot;question-3&quot;&gt;Question #3:&lt;/h3&gt;
+
+&lt;p&gt;Answer:21&lt;/p&gt;
+&lt;h1 id=&quot;task-2--boot-to-root&quot;&gt;Task 2 : Boot To Root&lt;/h1&gt;
+&lt;h3 id=&quot;question-1-1&quot;&gt;Question #1:&lt;/h3&gt;
+&lt;p&gt;Answer:anonymous:anonymous&lt;/p&gt;
+
+&lt;h3 id=&quot;question-2-1&quot;&gt;Question #2:&lt;/h3&gt;
+&lt;p&gt;Answer: vvv.txt&lt;/p&gt;
+
+&lt;p&gt;Question #3:&lt;/p&gt;
+
+&lt;p&gt;Answer: www-data&lt;/p&gt;
+
+&lt;h3 id=&quot;question-4&quot;&gt;Question #4:&lt;/h3&gt;
+&lt;p&gt;Check the premission of the above user ,from www-data user  we need to have access with root privileges and capturing flags in user and root .  as we find earlier that we have misconfiguration in sudeors that lead that www-data can run env binary program using sudo without root password&lt;/p&gt;
+
+&lt;p&gt;More details:&lt;/p&gt;
+
+&lt;p&gt;https://gtfobins.github.io/gtfobins/env/&lt;/p&gt;
+
+&lt;p&gt;Trick: To get user flag we need to get the root access first&lt;/p&gt;
+
+&lt;p&gt;User flag in&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/home/kaaf/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;question-5&quot;&gt;Question #5:&lt;/h3&gt;
+&lt;p&gt;Root flag :&lt;/p&gt;
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/root/root.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Cloud Secuirty issues and solutions</title>
