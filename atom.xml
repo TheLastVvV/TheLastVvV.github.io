@@ -4,7 +4,7 @@
  <title>ThelastVvV-Security First </title>
  <link href="https://www.thelastvvv.com//atom.xml" rel="self"/>
  <link href="https://www.thelastvvv.com//"/>
- <updated>2022-04-30T00:38:06+02:00</updated>
+ <updated>2022-04-30T00:41:26+02:00</updated>
  <id>https://www.thelastvvv.com/</id>
  <author>
    <name>ThelastVvV</name>
@@ -13,25 +13,13 @@
 
  
  <entry>
-   <title>Kaaf The Dementia[writeup]</title>
+   <title>KAAF:The Dementia</title>
    <link href="https://www.thelastvvv.com//2022/04/18/kaaf-the-dementia-writeup"/>
-   <updated>2022-04-18T00:00:00+02:00</updated>
+   <updated>2022-04-18T07:00:53+02:00</updated>
    <id>https://www.thelastvvv.com//2022/04/18/KAAF-The-Dementia[Writeup]</id>
-   <content type="html">&lt;p&gt;layout: post
-title:  KAAF:The Dementia
-categories: CTF
-author: ThelastVvV
-date: ‘2022-04-18 05:00:53 +0000’
-tags:&lt;/p&gt;
+   <content type="html">&lt;p&gt;###Table Of Content:&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;CTF&lt;/li&gt;
-  &lt;li&gt;CyberSecurity&lt;/li&gt;
-  &lt;li&gt;TryHackMe&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;hackthebox
-published: true
-—&lt;/p&gt;
-  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#Task-1&quot;&gt;Task 1: Reconnaissance &amp;amp; Scanning&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#Task-2&quot;&gt;Task 2 : Boot To Root&lt;/a&gt;
 &lt;!-- toc --&gt;&lt;/li&gt;
