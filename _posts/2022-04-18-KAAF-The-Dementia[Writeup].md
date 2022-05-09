@@ -9,7 +9,7 @@ tags:
   - CyberSecurity
   - TryHackMe
   - hackthebox
-published: true
+published: false
 ---
 
 # Table of contents
