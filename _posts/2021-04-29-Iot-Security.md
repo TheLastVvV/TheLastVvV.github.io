@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comunication IoT Security
+title: Communication IoT Security
 categories: CyberSecurity
 author: ThelastVvV
 date: '2021-04-29 05:00:53 +0000'
@@ -12,7 +12,7 @@ published: true
 ---
 
 
-# Comunication: IoT Security
+# Communication : IoT Security
 
 
 <embed src="https://www.thelastvvv.com/images/posts/6/iotsec.pdf" width="800" height="800" type="application/pdf" />
