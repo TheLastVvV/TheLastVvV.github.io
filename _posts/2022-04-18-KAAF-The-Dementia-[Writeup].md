@@ -29,7 +29,7 @@ published: false
 ## KAAF : The Dementia
 ## The easiest CTF for beginners
 
-
+[Download](https://github.com/TheLastVvV/Vulnerable-By-Design/blob/5993a314a0e04d024152f20f7d3ee130a557bbf0/2022/cft1-KAAF.md)
 
 >  Note*:Summary writeup some steps were skipped ...
 
