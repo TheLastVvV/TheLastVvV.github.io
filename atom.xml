@@ -4,13 +4,123 @@
  <title>ThelastVvV-Security First </title>
  <link href="https://www.thelastvvv.com//atom.xml" rel="self"/>
  <link href="https://www.thelastvvv.com//"/>
- <updated>2024-08-31T16:46:13+02:00</updated>
+ <updated>2024-08-31T16:48:43+02:00</updated>
  <id>https://www.thelastvvv.com/</id>
  <author>
    <name>ThelastVvV</name>
    <email>thelastvvv@protonmail.ch</email>
  </author>
 
+ 
+ <entry>
+   <title>Aidronedown</title>
+   <link href="https://www.thelastvvv.com//2023/04/12/aidronedown"/>
+   <updated>2023-04-12T00:00:00+02:00</updated>
+   <id>https://www.thelastvvv.com//2023/04/12/AiDroneDown</id>
+   <content type="html">&lt;h1 id=&quot;aidronedown&quot;&gt;AiDroneDown&lt;/h1&gt;
+&lt;p&gt;Drone Detection and Attack using roboflow and aircrack.ng with whitelist option&lt;/p&gt;
+
+&lt;p&gt;AiDroneDown version: 1.1 FREE&lt;/p&gt;
+
+&lt;h1 id=&quot;installation&quot;&gt;Installation&lt;/h1&gt;
+&lt;p&gt;python3 libriaries :&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pip install -r requirements.txt&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Network Interface configuration :&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;chmod +x install.sh&lt;/code&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo ./install.sh&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;usage&quot;&gt;Usage:&lt;/h1&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;python3 gui.py&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;quick-look&quot;&gt;QUICK LOOK&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;gui1.png&quot; alt=&quot;alt text&quot; title=&quot;Title&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;gui2.png&quot; alt=&quot;alt text&quot; title=&quot;Title&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;white.png&quot; alt=&quot;alt text&quot; title=&quot;Title&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;attacks.png&quot; alt=&quot;alt text&quot; title=&quot;Title&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;troubleshooting&quot;&gt;Troubleshooting:&lt;/h1&gt;
+&lt;p&gt;Problem scenario 1:
+ If the program don’t open the detection frame&lt;/p&gt;
+
+&lt;p&gt;solutions 1: check you connections to internet&lt;/p&gt;
+
+&lt;p&gt;solution 2 : make sure you two network interface are up and 
+runing&lt;/p&gt;
+
+&lt;p&gt;solution 3 : check api is correct and end point availability&lt;/p&gt;
+
+&lt;p&gt;solution 4 : check webcam is working and running on selection&lt;/p&gt;
+
+&lt;p&gt;output ( in this code dev/vide0 ) change it to 1 ,2 , -1 dependswebcam output&lt;/p&gt;
+
+&lt;p&gt;problem scenario 2 :&lt;/p&gt;
+
+&lt;p&gt;if the attacks don’t work&lt;/p&gt;
+
+&lt;p&gt;solution 1 : make sure that network adapter support packet injections and monitoring mode&lt;/p&gt;
+
+&lt;p&gt;solution 2 : check network adapter is on monitor mode and&lt;/p&gt;
+
+&lt;p&gt;install.sh run without errors&lt;/p&gt;
+
+&lt;p&gt;solution 3 : check general setting if you put the correct information&lt;/p&gt;
+
+&lt;p&gt;solution 4 : the attacks are only for wifi-based drones&lt;/p&gt;
+
+&lt;p&gt;problem scenario 3 :
+ cracking password don’t work&lt;/p&gt;
+
+&lt;p&gt;solution 1: make sure you have text file of wordlist in same directory or selected directory path in general settings&lt;/p&gt;
+
+&lt;p&gt;solution 2 : could be issue with format of wordlist&lt;/p&gt;
+
+&lt;p&gt;solution 3 : no matching of of password in wordlist choose long and strong wordlist&lt;/p&gt;
+
+&lt;h1 id=&quot;frequently-asked-questions-faqs&quot;&gt;Frequently Asked Questions (FAQs)&lt;/h1&gt;
+&lt;p&gt;can you detect drone from upward direction ?&lt;/p&gt;
+
+&lt;p&gt;Drone can be detected based on camera used and which direction 
+and angle is directed&lt;/p&gt;
+
+&lt;p&gt;do the detection detect other flying object ?&lt;/p&gt;
+
+&lt;p&gt;Our detection detect drones only with our tested dataset, the 
+accuracy and detection are depended on dataset selected&lt;/p&gt;
+
+&lt;p&gt;what is the range of detection ?&lt;/p&gt;
+
+&lt;p&gt;The range of detection depends of quality , resolution and field
+ of view of the camera used during our testing we used 720p webcam that have range of 
+detection can range approx 20 meters to 30 meters&lt;/p&gt;
+
+&lt;p&gt;what type of attacks are used ?&lt;/p&gt;
+
+&lt;p&gt;De-Authentication attack , Hanshake capture attack , bruteforce 
+attack , Network hijacking attack .&lt;/p&gt;
+
+&lt;p&gt;Can these attacks effect other networks ?&lt;/p&gt;
+
+&lt;p&gt;These attacks can effect other networks in the nature of threat 
+actor can change WiFi drone network ssid which will be hard to 
+detect based or keyword network detection of ssids in this case 
+we create whitelist so user can protect their network during 
+attacks ,In other way once detection happen all network that are
+ in permitter and are not protected will be attacked .&lt;/p&gt;
+
+&lt;p&gt;# Warning: This program is for educational purposes only. The creators are not responsible for any misuse.&lt;/p&gt;
+
+&lt;p&gt;@Thelastvvv&lt;/p&gt;
+
+&lt;p&gt;aka Fahad A.A&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>KAAF:The Dementia</title>
