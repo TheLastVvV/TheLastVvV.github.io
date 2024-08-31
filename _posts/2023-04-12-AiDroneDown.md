@@ -3,6 +3,9 @@ Drone Detection and Attack using roboflow and aircrack.ng with whitelist option
 
 
 AiDroneDown version: 1.1 FREE 
+check the project here:
+
+https://github.com/TheLastVvV/AiDroneDown
 
 # Installation 
 python3 libriaries :
