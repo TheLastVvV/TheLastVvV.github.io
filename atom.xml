@@ -4,7 +4,7 @@
  <title>ThelastVvV-Security First </title>
  <link href="https://www.thelastvvv.com//atom.xml" rel="self"/>
  <link href="https://www.thelastvvv.com//"/>
- <updated>2024-08-31T16:48:43+02:00</updated>
+ <updated>2024-08-31T16:51:21+02:00</updated>
  <id>https://www.thelastvvv.com/</id>
  <author>
    <name>ThelastVvV</name>
@@ -20,7 +20,10 @@
    <content type="html">&lt;h1 id=&quot;aidronedown&quot;&gt;AiDroneDown&lt;/h1&gt;
 &lt;p&gt;Drone Detection and Attack using roboflow and aircrack.ng with whitelist option&lt;/p&gt;
 
-&lt;p&gt;AiDroneDown version: 1.1 FREE&lt;/p&gt;
+&lt;p&gt;AiDroneDown version: 1.1 FREE 
+check the project here:&lt;/p&gt;
+
+&lt;p&gt;https://github.com/TheLastVvV/AiDroneDown&lt;/p&gt;
 
 &lt;h1 id=&quot;installation&quot;&gt;Installation&lt;/h1&gt;
 &lt;p&gt;python3 libriaries :&lt;/p&gt;
